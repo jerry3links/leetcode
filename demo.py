@@ -17,15 +17,7 @@ def stringToIntegerList(input):
 
 
 def main():
-    from solTriangle import Solution
-    lst = [
-        [2],
-        [3, 4],
-        [6, 5, 7],
-        [4, 1, 8, 3]
-    ]
-    a = Solution().minimumTotal(lst)
-    print("min path: {}".format(a))
+    print("TEST")
 
 
 if __name__ == '__main__':

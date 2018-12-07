@@ -1,5 +1,5 @@
 """Put the following in main of demo,py
-from solTriangle import Solution
+from sol120Triangle import Solution
 lst = [
      [2],
     [3,4],
