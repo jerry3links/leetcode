@@ -17,7 +17,11 @@ def stringToIntegerList(input):
 
 
 def main():
-    print("TEST")
+    from DifficultyHard.sol224BasicCalculator import Solution
+    strs = "(1+(4+5+2)-3)+(6+8)"
+    print("que: {}".format(strs))
+    a = Solution().calculate(strs)
+    print("ans: {}".format(a))
 
 
 if __name__ == '__main__':

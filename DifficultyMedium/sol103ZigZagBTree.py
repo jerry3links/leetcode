@@ -1,7 +1,7 @@
 """Put the following in demo,py
 from tstBinaryTree import treeInstance
 tree = treeInstance().createBtree()
-from sol103ZigZagBTree.py import Solution
+from DifficultyMedium.sol103ZigZagBTree.py import Solution
 L = Solution().zigzagLevelOrder(tree)
 """
 

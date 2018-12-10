@@ -1,5 +1,5 @@
 """Put the following in main of demo,py
-from sol103ZigZagBTree import Solution
+from DifficultyMedium.sol103ZigZagBTree import Solution
 n_lst = [0, 1, 12, 13]
 for n in n_lst:
     print("n: {}".format(n))
