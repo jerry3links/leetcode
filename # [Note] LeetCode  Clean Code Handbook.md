@@ -9,21 +9,21 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ## 進行中 (優先待解, 還沒參透, 或想繼續鑽研的)
 
-\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/), [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),  ]
+\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/), [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),  [**45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/),      ]
 
-## 目前已解 (16)
+## 目前已解 (18+1)
 
-### Easy (6)
+### Easy (8)
 
-\[**1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree, ]
+\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/), ]
 
 ### Medium (9)
 
 \[ [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, **120**. Triangle, [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, **322**. Design Circular Queue, **338**. Counting Bits,  ]
 
-### Hard (1)
+### Hard (1+1)
 
-\[[**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), ]
+\[[**45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(好難, 看著GA解仍然沒感覺), [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), ]
 
 
 ## Note
