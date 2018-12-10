@@ -17,11 +17,11 @@ def stringToIntegerList(input):
 
 
 def main():
-    from DifficultyHard.sol224BasicCalculator import Solution
-    strs = "(1+(4+5+2)-3)+(6+8)"
-    print("que: {}".format(strs))
-    a = Solution().calculate(strs)
-    print("ans: {}".format(a))
+    from DifficultyMedium.sol785IsBipartite import Solution
+    graph = [[1,3], [0,2], [1,3], [0,2]]
+    graph = [[1,2,3],[0,2],[0,1,3],[0,2]]
+    ans = Solution().isBipartite(graph)
+    print(ans)
 
 
 if __name__ == '__main__':
