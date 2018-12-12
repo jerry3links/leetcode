@@ -17,10 +17,9 @@ def stringToIntegerList(input):
 
 
 def main():
-    from DifficultyMedium.sol785IsBipartite import Solution
-    graph = [[1,3], [0,2], [1,3], [0,2]]
-    graph = [[1,2,3],[0,2],[0,1,3],[0,2]]
-    ans = Solution().isBipartite(graph)
+    from DifficultyMedium.sol300LIS import Solution
+    nums = [10,9,2,5,3,7,101,18]
+    ans = Solution().lengthOfLIS(nums)
     print(ans)
 
 

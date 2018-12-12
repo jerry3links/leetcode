@@ -9,21 +9,21 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ## 進行中 (優先待解, 還沒參透, 或想繼續鑽研的)
 
-\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/), [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),  [**45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/),      ]
+\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/), [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),      [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)]
 
-## 目前已解 (18+1)
+## 目前已解 (23)
 
-### Easy (8)
+### Easy (9)
 
-\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/), ]
+\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree, **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/), ]
 
-### Medium (9)
+### Medium (12)
 
-\[ [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, **120**. Triangle, [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, **322**. Design Circular Queue, **338**. Counting Bits,  ]
+\[ [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/), **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle, [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, ,  **322**. Design Circular Queue, **338**. Counting Bits, [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  ]
 
-### Hard (1+1)
+### Hard (2)
 
-\[[**45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(好難, 看著GA解仍然沒感覺), [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), ]
+\[[**45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(很難, py不能用DP, 目前看GA有比之前看理解), [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), ]
 
 
 ## Note
@@ -31,7 +31,7 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 問題分難中易，難通常是演算法性質的問題，又分出現頻率，這是根據用戶面試遇到題目次數的統計而得，每題又會配幾個延伸問題，面試時是可以問面試官的。適時的問問題可以呈現你的思路。通常作答超過30行，表示程式碼不夠簡潔，本書題目的參考答案通常都在20~30行之間。
 
-至於acceptance, 大概是所有submit次數中通過的百分比, 目前理解百分比愈高, 就是題目偏簡單或者這個題目出現頻率非常高
+至於acceptance, 大概是所有submit次數中通過的百分比, 目前理解百分比愈高, 可能就是題目偏簡單~~或者這個題目出現頻率非常高~~ (其實要看submit次數)
 
 
 
@@ -119,6 +119,11 @@ class Solution:
 
 </p></details>
 
+#### [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/submissions/)
+
+暴力解, 將linked list轉換成array, 取中間點當root,再把剩下的array切開轉成兩個linked list, recursively進行下去 
+
+
 ### Ch 5. Bit Manipulation
 
 除以2, 餘數就會是LSB, 重複對商做, 直到無法除
@@ -182,71 +187,68 @@ def isValidBST(self, root):
 
 </p></details>
 
+#### [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+
+先檢查edge case (none), 再檢查val, 是就return這個node, 否則分大小去recursive右或左邊 (記得return)
+
+
+
+
 
 ### Other
 
 #### 重點概念
 
-##### Binary Search vs Binary Tree
+**Binary Search vs Binary Tree**,  **Linked List**,  **DP**,  **Stack & Queue**, **Algorithm**, **Combination and Permutation**
 
-##### Linked List
+O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的量增加, 花費時間 或 花費記憶體 會如何增長
 
-##### DP
-
-##### Stack, Queue
+#### 其它各題解法雜記
 
 - [322\. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/submissions/)
   可以用list, pop作為dequeue, 或用索引0和-1來dequeue, 第一版的解法感覺沒有circular(或ring)的概念在內, 下面是有head和tail的索引寫法, tail用shift之後就有ring的感覺
 
-<details><summary>Solution</summary><p>
+    <details><summary>Solution</summary><p>
 
-```python
-class MyCircularQueue:
-    def __init__(self, k):
-        self.maxS = k
-        self.head = 0
-        self.tail = 0
-        self.list = []
-        self.size = 0  
-    def enQueue(self, value):  
-        if self.isFull():
-            return False  
-        self.list.append(value)
-        self.tail = (self.tail + 1) % self.maxS
-        self.size += 1
-        return True
-    def deQueue(self):
-        if self.isEmpty():
-            return False
-        del(self.list[self.head])
-        self.tail = (self.tail - 1) % self.maxS
-        self.size -= 1
-        return True
-    def Front(self):
-        if self.isEmpty():
-            return -1
-        return self.list[self.head]
-    def Rear(self):
-        if self.isEmpty():
-            return -1
-        return self.list[(self.tail-1) % self.maxS]
-    def isEmpty(self):
-        return self.size == 0
-    def isFull(self):
-        return self.size >= self.maxS
-```
-</p></details>
-
-
-##### Algorithm
-
-O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的量增加, 花費時間 或 花費記憶體 會如何增長
-
-##### Combination and Permutation
+    ```python
+    class MyCircularQueue:
+        def __init__(self, k):
+            self.maxS = k
+            self.head = 0
+            self.tail = 0
+            self.list = []
+            self.size = 0  
+        def enQueue(self, value):  
+            if self.isFull():
+                return False  
+            self.list.append(value)
+            self.tail = (self.tail + 1) % self.maxS
+            self.size += 1
+            return True
+        def deQueue(self):
+            if self.isEmpty():
+                return False
+            del(self.list[self.head])
+            self.tail = (self.tail - 1) % self.maxS
+            self.size -= 1
+            return True
+        def Front(self):
+            if self.isEmpty():
+                return -1
+            return self.list[self.head]
+        def Rear(self):
+            if self.isEmpty():
+                return -1
+            return self.list[(self.tail-1) % self.maxS]
+        def isEmpty(self):
+            return self.size == 0
+        def isFull(self):
+            return self.size >= self.maxS
+    ```
+    </p></details>
 
 
 
-##### 其它
 - [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 
     <details><summary>BFS Solution</summary><p>
@@ -282,8 +284,8 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
     
             return cnt
     ```
-
     </p></details>
+
 - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/submissions/)
     <details><summary>Solution (Without String)</summary><p>
 
@@ -593,6 +595,71 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
             return res
     ```
     </p></details>
+
+- [785. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)
+
+    <details><summary>Solution</summary><p>
+
+    ```python=
+    class Solution:
+
+        def isBipartite(self, graph):
+            """
+            :type graph: List[List[int]]
+            :rtype: bool
+            """
+            print("Initialize ...")
+            colors = [-1 for i in graph]
+            for v in range(len(graph)):
+                if colors[v] == -1:
+                    colors[v] = 0
+                    if self.sameOccur(v, graph, colors):
+                        return False
+            return True
+
+        def sameOccur(self, v, graph, colors):
+            for w in graph[v]:
+                if colors[w] == -1:
+                    colors[w] = int(not colors[v])
+                    if self.sameOccur(w, graph, colors):
+                        return True
+                else:
+                    if colors[w] == colors[v]:
+                        return True
+            return False
+    ```
+
+    </p></details>
+
+
+
+- [45. Jump Game II]()
+
+  以nums = [2,2,3,1,1,4]為例, 第二層while的意義是尋找從定點i跳一次後能達到的最大距離(next_reach), 當i和curr_reach為0時, 代表是初次執行還沒開始跳, 第一次執行 (跳) 後, next_reach就會是nums[0] = 2, 這裡都會檢查能達到的最大距離是否到終點, 是就直接回傳結果cnt並結束, 否則就會檢查每一個能達到的點, i用來記錄位置 (第一次跳只有0, 第二次跳時因為curr_reach是2, 所以延續上次從1開始到2共二次, 檢查到nums[2]時已經可以跳到終點了所以結束), 第一層while就是每跳完一次會對cnt加一, 並記錄上次能達的最大距離 (curr_next = next_reach)
+    <details><summary>Solution</summary><p>
+
+    ```python=
+        def jump(self, nums):
+            """
+            :type nums: List[int]
+            :rtype: int
+            """
+            if len(nums) <= 1:
+                return 0
+            curr_reach = next_reach = cnt = i = 0
+            while True:
+                while i <= curr_reach:
+                    next_reach = max(i+nums[i], next_reach)
+                    if next_reach >= len(nums) - 1:
+                        return cnt + 1
+                    i += 1
+                curr_reach = next_reach
+                cnt += 1
+    ```
+
+    </p></details>
+
+
 
 
 ### Todo

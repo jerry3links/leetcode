@@ -9,25 +9,26 @@
 
 class Solution:
 
-    G = None
-
-    def isCyclicUtil(self, v, visited, graph):
-        visited[v] = True
-        for i in graph[v]:
-            if visited[i] == False:
-                if self.isCyclicUtil(i, visited, graph):
-                    return True
-        return False
-
-
     def isBipartite(self, graph):
         """
         :type graph: List[List[int]]
         :rtype: bool
         """
-        V = [False for v in graph]
-        for v in range(len(V)):
-            if V[v] == False:
-                if self.isCyclicUtil(v, V, graph):
+        colors = [-1 for i in graph]
+        for v in range(len(graph)):
+            if colors[v] == -1:
+                colors[v] = 0
+                if self.sameOccur(v, graph, colors):
                     return False
         return True
+
+    def sameOccur(self, v, graph, colors):
+        for w in graph[v]:
+            if colors[w] == -1:
+                colors[w] = int(not colors[v])
+                if self.sameOccur(w, graph, colors):
+                    return True
+            else:
+                if colors[w] == colors[v]:
+                    return True
+        return False
