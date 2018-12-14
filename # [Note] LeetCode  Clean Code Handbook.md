@@ -9,7 +9,7 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ## 進行中 (優先待解, 還沒參透, 或想繼續鑽研的)
 
-\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/), [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),      [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)]
+\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/), [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),      [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [**907**. Sum of Subarray Minimums]( https://leetcode.com/problems/sum-of-subarray-minimums/)  ]
 
 ## 目前已解 (23)
 
