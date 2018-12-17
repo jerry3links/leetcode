@@ -9,17 +9,17 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ## 進行中 (優先待解, 還沒參透, 或想繼續鑽研的)
 
-\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/), [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),      [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [**907**. Sum of Subarray Minimums]( https://leetcode.com/problems/sum-of-subarray-minimums/)  ]
+\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/),   [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/),   [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/), [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**907**. Sum of Subarray Minimums]( https://leetcode.com/problems/sum-of-subarray-minimums/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),      ]
 
-## 目前已解 (23)
+## 目前已解 (24)
 
 ### Easy (9)
 
-\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree, **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/), ]
+\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  (E)**155**. Min Stack ,  **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/), ]
 
-### Medium (12)
+### Medium (13)
 
-\[ [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/), **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle, [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, ,  **322**. Design Circular Queue, **338**. Counting Bits, [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  ]
+\[ [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/), **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle, [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/),  **322**. Design Circular Queue, **338**. Counting Bits, [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  ~~[**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)~~, ]
 
 ### Hard (2)
 
@@ -134,6 +134,34 @@ class Solution:
 
 
 ### Ch 7. Stack
+#### [155. Min Stack]()
+
+最簡單的解法如下, 就是都用builtin function, 但是這會有1%的速度, 應該主要min()的關係
+
+<details><summary>Solution</summary><p>
+
+```python=
+    class MinStack:
+
+        def __init__(self): self.stack = []
+        def push(self, x): self.stack.append(x)
+        def pop(self): if self.stack:self.stack.pop()
+        def top(self): if self.stack: return self.stack[-1]
+        def getMin(self): if self.stack: return min(self.stack)
+```
+
+</p></details>
+
+O(1)的解就是每加一個元素多用它旁邊的空間來記錄最小值, 所以可以用-2來存取, 空間複雜度會是2N, 快很多
+
+<details><summary>Solution</summary><p>
+
+```python=
+TBA
+```
+
+</p></details>
+
 ### Ch 8. Dynamic Programming
 
 - 針對可用DP演算法解的問題, 例子為背包問題或旅行推銷員問題, 其問題性質有二
@@ -602,7 +630,7 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
 
     ```python=
     class Solution:
-
+    
         def isBipartite(self, graph):
             """
             :type graph: List[List[int]]
@@ -616,7 +644,7 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
                     if self.sameOccur(v, graph, colors):
                         return False
             return True
-
+    
         def sameOccur(self, v, graph, colors):
             for w in graph[v]:
                 if colors[w] == -1:
@@ -631,6 +659,30 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
 
     </p></details>
 
+- [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+
+    下面是n平方的遞迴解法, 仍然會遇到TLE, 注意python 迴圈中能不要用append就不用
+
+    <details><summary>Solution</summary><p>
+
+    ```python=
+        def LIS(self, nums):
+    
+            if len(nums) < 1:
+                return 0
+            T = [1 for v in range(len(nums))]
+            LIS = 0
+            for i in range(len(num)):
+                for j in range(i):
+                    if num[j] > num[i]:
+                        T[i] = max(T[i], T[j] + 1)
+                if T[i] > LIS:
+                    LIS = T[i]
+            return LIS
+            
+    ```
+
+    </p></details>
 
 
 - [45. Jump Game II]()

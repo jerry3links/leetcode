@@ -17,13 +17,19 @@ def stringToIntegerList(input):
 
 
 def main():
-    from DifficultyMedium.sol300LIS import Solution
-    nums = [10,9,2,5,3,7,101,18]
-    nums = [10, 9, 2, 5, 3, 4]
-    # nums = [1, 3, 6, 7, 9, 4, 10, 5, 6]
-    print("nums: {}".format(nums))
-    ans = Solution().lengthOfLIS(nums)
-    print(ans)
+    from DifficultyEasy.sol155MinStack import MinStack
+    obj = MinStack()
+    obj.push(-2)
+    obj.push(0)
+    obj.push(-3)
+    a = obj.getMin()
+    print("getMin(): {}".format(a))
+    obj.pop()
+    print("pop ...")
+    a = obj.top()
+    print("top: {}".format(a))
+    a = obj.getMin()
+    print("getMin(): {}".format(a))
 
 
 if __name__ == '__main__':

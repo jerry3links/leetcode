@@ -1,6 +1,8 @@
 """
     from DifficultyMedium.sol300LIS import Solution
-    nums = [10,9,2,5,3,7,101,18]
+    # nums = [10,9,2,5,3,7,101,18]
+    # nums = [10, 9, 2, 5, 3, 4]
+    nums = [1, 3, 6, 7, 9, 4, 10, 5, 6]
     ans = Solution().lengthOfLIS(nums)
     print(ans)
 """
@@ -11,33 +13,16 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        L = len(nums)
-        if L < 1:
+        if len(nums) <= 0:
             return 0
-
+        T = [1 for i in range(len(nums))]
         LIS = 0
-
-        rmap = {}
-        min_val = float("inf")
         for i in range(len(nums)):
-            if nums < min_val:
-                min_val = num
-
-
-
-        lmap = [[min(nums)] for v in nums]
-
-        print(lmap)
-
-
-        for length in range(2, L + 1):
-            print("length: {}".format(length))
-
-            for num in nums:
-                if lmap[length - 1][-1] < num:
-                    lmap[length - 1].append(num)
+            for j in range(i):
+                if nums[i] > nums[j]:
+                    T[i] = max(T[i], T[j] + 1)
+            if T[i] > LIS:
+                LIS = T[i]
 
         return LIS
-
-
 
