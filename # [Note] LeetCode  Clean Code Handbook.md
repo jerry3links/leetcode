@@ -9,17 +9,17 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ## 進行中 (優先待解, 還沒參透, 或想繼續鑽研的)
 
-\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/),   [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/),   [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/), [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**907**. Sum of Subarray Minimums]( https://leetcode.com/problems/sum-of-subarray-minimums/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),      ]
+\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/),   [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/),   [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  , [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/), [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),      ]
 
-## 目前已解 (24)
+## 目前已解 (29)
 
-### Easy (9)
+### Easy (11)
 
-\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  (E)**155**. Min Stack ,  **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/), ]
+\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  (E)**155**. Min Stack ,  **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/), ]
 
-### Medium (13)
+### Medium (16)
 
-\[ [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/), **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle, [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/),  **322**. Design Circular Queue, **338**. Counting Bits, [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  ~~[**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)~~, ]
+\[ [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/), **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle,  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/),  **322**. Design Circular Queue, **338**. Counting Bits, [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
 
 ### Hard (2)
 
@@ -91,8 +91,9 @@ class Solution:
 
 ### Ch 3. Linked List
 
-#### [Linked List](https://leetcode.com/problems/linked-list-cycle-ii/)
+#### [142. Linked List | Medium](https://leetcode.com/problems/linked-list-cycle-ii/)
 
+Python 用set或用dict都可以, 注意題目要求的回傳形式, 然後也要注意edge case (空陣列), 第一次做花了一小時
 
 ### Ch 4. Binary Tree
 
@@ -476,17 +477,18 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
     </p></details>
 
 - [179. Largest Number]()
+
     <details><summary>Solution</summary><p>
 
     ```python=
     class Solution:
         def largestNumber(self, nums):
-
+    
             # map will return nums' iterable using str()
             nums = map(str,nums)
             # sort list using self defined cmp, and using descending order
             nums.sort(cmp=lambda a,b : cmp(a+b,b+a), reverse=True)
-
+    
             # join vs split
             # note the A or B, will return B if A is empty string
             return ''.join(nums).lstrip('0') or '0'
@@ -711,13 +713,23 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
 
     </p></details>
 
+- [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/)
+  這題麻煩的是非嚴格遞增, 要處理開頭的相同元素
 
+- [**907**. Sum of Subarray Minimum](https://leetcode.com/problems/sum-of-subarray-minimums/)
+
+  - 用兩個for loop列出所有sub array, 然後加總每一個陣列的最小值, 可解但會在leetcode上TLE
+  - 利用monotonic stack (單調遞增或遞減的stack), 可在O(n)時間內找到PLE和NLE (next less element),  找到每個元素與PLE和NLE的距離, 就可以推算出以此元素為最小值的所有陣列, 每個元素都找過就是所有陣列, 相乘後加總就是答案, 最後要注意要取mod = 1e9 * 7, 然後轉成整數 ([參考教學](https://leetcode.com/problems/sum-of-subarray-minimums/discuss/178876/stack-solution-with-very-detailed-explanation-step-by-step))
+
+
+- [**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/submissions/)
+  DP解([參考教學](https://leetcode.com/problems/coin-change-2/discuss/200847/Python-easy-to-understand-dp-solution)), 方法是先將coin由小到大排序, coins[0]就是第一種錢幣, coins[1]就是前兩種錢幣 ... , f(i,j)就是coin set i可以換成錢j的方法數, 可被化約成兩種可能:
+  - 如果coins[i]的最大幣值大於j, 則f(i,j) = f(i-1, j)
+  - 如果coins[i]的最大幣值小於等於j, 則f(i,j) = f(i,j-最大幣值) + f(i-1,j)
 
 
 ### Todo
 
-
-https://leetcode.com/problems/linked-list-cycle-ii/
 https://leetcode.com/problemset/all/
 https://interviews.skype.com/zh/Interviews?code=72a9eaf2-a055-9048-1a18-b527fcb4fbad
 http://www.raychase.net/tag/leetcode
