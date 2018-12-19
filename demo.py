@@ -17,15 +17,17 @@ def stringToIntegerList(input):
 
 
 def main():
-    from DifficultyMedium.sol518CoinChangeII import Solution
-    # amount = 5; coins = [1,2,5, 10]
-    amount = 5; coins = [1, 2, 5]
-    # amount = 10; coins = [10]
-    # amount = 3; coins = [2]
-    print("amount: {}, coins: {}".format(amount, coins))
+    from DifficultyMedium.sol322CoinChange import Solution
+    # coins = [1,2,5]; amount =11
+    coins = [474, 83, 404, 3]; amount = 264
+    # coins =[125, 146, 125, 252, 226, 25, 24, 308, 50]
+    # amount = 8402
+    # coins = [94, 91, 377, 368, 207, 40, 415, 61]
+    # amount = 9662
+    print("coins = {}; amount = {}".format(coins, amount))
+    ans = Solution().coinChange(coins, amount)
 
-    ans = Solution().change(amount, coins)
-    print(ans)
+    print("ans = {}".format(ans))
 
 
 if __name__ == '__main__':
