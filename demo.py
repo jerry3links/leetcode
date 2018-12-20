@@ -17,17 +17,12 @@ def stringToIntegerList(input):
 
 
 def main():
-    from DifficultyMedium.sol322CoinChange import Solution
-    # coins = [1,2,5]; amount =11
-    coins = [474, 83, 404, 3]; amount = 264
-    # coins =[125, 146, 125, 252, 226, 25, 24, 308, 50]
-    # amount = 8402
-    # coins = [94, 91, 377, 368, 207, 40, 415, 61]
-    # amount = 9662
-    print("coins = {}; amount = {}".format(coins, amount))
-    ans = Solution().coinChange(coins, amount)
-
-    print("ans = {}".format(ans))
+    from DifficultyMedium.sol279PerfectSquareDP import Solution
+    n_lst = [0, 1, 12, 13]
+    for n in n_lst:
+        print("n: {}".format(n))
+        a = Solution().numSquares(n)
+        print("num of ps: {}".format(a))
 
 
 if __name__ == '__main__':

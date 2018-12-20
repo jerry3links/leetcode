@@ -11,11 +11,11 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 \[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/),   [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/),   [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  , , [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),    [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/),    ]
 
-## 目前已解 (30)
+## 目前已解 (32)
 
-### Easy (11)
+### Easy (13)
 
-\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  (E)**155**. Min Stack ,  **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/), ]
+\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  (E)**155**. Min Stack ,   [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/), ]
 
 ### Medium (17)
 
@@ -280,6 +280,9 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
 
 - [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 
+	- DP解
+      和322. Coin Change類似, 把square number當作硬幣集合, n就是要找的錢量, 找出最少的硬幣組合, 就是最少的平方數組合
+	- BFS解
     <details><summary>BFS Solution</summary><p>
 
     ```python=
@@ -726,6 +729,7 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
   - BFS解
     用279. Perfect Squares的概念來解, 但要注意set的成本, 不能放在while loop裡面, 可以在while裡用append, 不要每個loop都重新創set
   - DP解([參考教學](https://www.youtube.com/watch?v=za2bgJLHmxI&t=1277s))
+    根據目標量列出一張DP表 (0~amount), 0就設為0 (沒有硬幣找), 初值可用2**32 (表INVALID) 或無限大 float("inf"), 最後跑完如果沒變, 表示現有硬幣集合中無法組合出該量. 這個方式可以不用先對硬幣集合排序, 每種硬幣從1開始填表, 填到這個幣值再挑下一個硬幣, 每個硬幣都做完就結束了, 式子是dp[i] = min(dp[i], dp[i - coin] + 1), 舉例來說: 有{1,2,5}三種硬幣目標是3元, 挑1元硬幣填時, dp[1] = min(dp[1], dp[1-1元] + 1), dp[2] = min(dp[2], dp[2-1元] + 1), ..., 就是用1元硬幣找的所有解, 當挑到2元硬幣時, 就會再填一次dp[2] = min(dp[2], dp[2-2元] + 1), 全部跑完這格就是解
 
 - [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/submissions/)
   DP解([參考教學](https://leetcode.com/problems/coin-change-2/discuss/200847/Python-easy-to-understand-dp-solution)), 方法是先將coin由小到大排序, coins[0]就是第一種錢幣, coins[1]就是前兩種錢幣 ... , f(i,j)就是coin set i可以換成錢j的方法數, 可被化約成兩種可能:

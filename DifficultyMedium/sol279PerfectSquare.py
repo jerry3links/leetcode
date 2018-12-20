@@ -1,10 +1,10 @@
 """Put the following in main of demo,py
-from DifficultyMedium.sol103ZigZagBTree import Solution
-n_lst = [0, 1, 12, 13]
-for n in n_lst:
-    print("n: {}".format(n))
-    a = Solution().numSquares(n)
-    print("num of ps: {}".format(a))
+    from DifficultyMedium.sol279PerfectSquare import Solution
+    n_lst = [0, 1, 12, 13]
+    for n in n_lst:
+        print("n: {}".format(n))
+        a = Solution().numSquares(n)
+        print("num of ps: {}".format(a))
 """
 
 
