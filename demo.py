@@ -17,12 +17,11 @@ def stringToIntegerList(input):
 
 
 def main():
-    from DifficultyMedium.sol279PerfectSquareDP import Solution
-    n_lst = [0, 1, 12, 13]
-    for n in n_lst:
-        print("n: {}".format(n))
-        a = Solution().numSquares(n)
-        print("num of ps: {}".format(a))
+    from DifficultyHard.sol051NQueens import Solution
+    n = 4
+    ans = Solution().solveNQueens(n)
+    print("Final boards:")
+    print(ans)
 
 
 if __name__ == '__main__':
