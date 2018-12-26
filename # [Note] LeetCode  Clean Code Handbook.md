@@ -9,21 +9,26 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ## 進行中 (優先待解, 還沒參透, 或想繼續鑽研的)
 
-\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/),   [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/),   [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  , , [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),    [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/),    ]
+\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/),   [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), 
 
-## 目前已解 (32)
+,
 
-### Easy (13)
 
-\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  (E)**155**. Min Stack ,   [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/), ]
+[**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  , , [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),   ,    ]
+
+## 目前已解 (36)
+
+### Easy (16)
+
+\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,     [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,   (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ]
 
 ### Medium (17)
 
 \[ [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/), **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle,  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/),  **622**. Design Circular Queue, **338**. Counting Bits, [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
 
-### Hard (2)
+### Hard (3)
 
-\[[ **45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(很難, py不能用DP, 目前看GA有比之前看理解), [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), ]
+\[ [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/),   **45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(很難, py不能用DP, 目前看GA有比之前看理解), [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), ]
 
 
 ## Note
@@ -66,6 +71,19 @@ class Solution:
 </p></details>
 
 上面是O(n)解之一, 注意return的順序`[tab[target - val], idx]`, idx排在後面, 這是因為一定要跑完一次全部元素, key-value的pair才會全部建立完成, 另外重複元素的case(例如`list = [3,3], target = 6`)也可以通過的原因是因為, hashmap剛好可以檢查到重複項
+
+#### [167. Two Sum II | Easy](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+
+輸入的序列是排序過的序列, 三種解法
+
+1. 同上繼續使用HashMap, time和space complexity都是O(n), 但是這樣沒有利用到排序的特性
+2. 利用binary search, 單找一個number的time complexity會是O(logn), 基本上有用到二元搜尋的算法都脫離不了logn, 最終的time complexity會是O(nlogn), 至於space complexity和brute force一樣是O(1)
+3. two pointer, 有點像binary search, 並記錄頭尾兩端的索引一次改一邊, 往中間逼近, time comp.是O(n), 而因為只有紀錄前後索引, 所以space comp.是O(1)
+
+#### [170. Two Sum III | Easy]
+
+付費才能解, 不過概念仍然是利用hash map, key就是number, value則是記錄key的出現次數
+
 
 #### [27. Remove Element | Easy](https://leetcode.com/problems/remove-element/submissions/)
 <details><summary>Solution</summary><p>
@@ -742,6 +760,22 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
 
     f($2, $3 to $4), 最大幣值可以從目標量扣除, 變成答案的一部分, 所以相當於 f($2, $3 to $2) + f($2 to $4), 前者是就是同一排左邊的答案, 後者就是上排 (較小的那些幣值) 對同樣目標量的答案
 
+- [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/)
+  Backtracking Algorithm ([參考教學 - 花花](https://youtu.be/Xa-yETqFNEQ), [參考教學 - Geeks](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/)), 可用遞迴的方式逐列執行, 我的感覺是有點像DFS, pseudo code如下, isSafe要檢查對角線可利用python的zip來達成, 或是用花花的對角線索引 (2n-1 = x + y or x - y + n -1):
+
+  ```python
+  def solve(row, board, ans):
+      if row == N:
+          ans += board
+          return
+      for col in range(0, N):
+          if not isSafe(row, col, board): continue
+          board[row][col] = "Q" # 可以放就放 (有過上面檢查), 然後往下一列做
+          solve(row + 1, col, board, ans) # 這邊會往下走各種分支, 直到終止 (無解或有解)
+          board[row][col] = "." # 放完要清空, 看能否在下一行放 (也就是繼續看各分支)
+      return
+  # 執行時用solve(0, 空棋盤, 空串列)
+  ```
 
 ### Todo
 

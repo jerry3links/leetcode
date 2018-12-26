@@ -17,11 +17,12 @@ def stringToIntegerList(input):
 
 
 def main():
-    from DifficultyHard.sol051NQueens import Solution
-    n = 4
-    ans = Solution().solveNQueens(n)
-    print("Final boards:")
-    print(ans)
+    from DifficultyEasy.sol125ValidPalindrome import Solution
+
+    s = "A man, a plan, a canal: Panama"
+    print("{}".format(s))
+    ans = Solution().isPalindrome(s)
+    print("ans: {}".format(ans))
 
 
 if __name__ == '__main__':
