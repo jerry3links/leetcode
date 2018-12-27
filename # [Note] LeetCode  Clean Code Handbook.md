@@ -16,11 +16,11 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  , , [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),   ,    ]
 
-## 目前已解 (36)
+## 目前已解 (37)
 
-### Easy (16)
+### Easy (17)
 
-\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,     [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,   (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ]
+\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,   (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ]
 
 ### Medium (17)
 
@@ -72,7 +72,7 @@ class Solution:
 
 上面是O(n)解之一, 注意return的順序`[tab[target - val], idx]`, idx排在後面, 這是因為一定要跑完一次全部元素, key-value的pair才會全部建立完成, 另外重複元素的case(例如`list = [3,3], target = 6`)也可以通過的原因是因為, hashmap剛好可以檢查到重複項
 
-#### [167. Two Sum II | Easy](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+####  [167. Two Sum II | Easy](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 
 輸入的序列是排序過的序列, 三種解法
 
@@ -80,9 +80,24 @@ class Solution:
 2. 利用binary search, 單找一個number的time complexity會是O(logn), 基本上有用到二元搜尋的算法都脫離不了logn, 最終的time complexity會是O(nlogn), 至於space complexity和brute force一樣是O(1)
 3. two pointer, 有點像binary search, 並記錄頭尾兩端的索引一次改一邊, 往中間逼近, time comp.是O(n), 而因為只有紀錄前後索引, 所以space comp.是O(1)
 
-#### [170. Two Sum III | Easy]
+#### 170. Two Sum III | Easy
 
 付費才能解, 不過概念仍然是利用hash map, key就是number, value則是記錄key的出現次數
+
+####  [28. Implement strStr() | Easy](https://leetcode.com/problems/implement-strstr/)
+
+time comp.勢必為O(nm), space comp.為O(1), 暴力解不難, 難的是如何確保不TLE, 特殊case不計的話, 最簡潔的implementation如下:
+
+```python
+def strStr(self, haystack, needle):
+    for i in range(len(haystack) + 1): # 原意是i和j都不設上限, 終止條件會在inner loop裡
+        for j in range(len(needle) + 1):
+            if j == len(needle): return i # j 能夠順利遞加到needle的長度表示都相同
+            if i+j >= len(haystack): return -1 # haystack的剩餘長度已無法涵蓋needle的長度
+            if haystack[i + j] != needle[j]: break # 一旦遇到不符就放棄, 從下個i開始
+```
+
+
 
 
 #### [27. Remove Element | Easy](https://leetcode.com/problems/remove-element/submissions/)
