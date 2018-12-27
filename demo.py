@@ -17,13 +17,14 @@ def stringToIntegerList(input):
 
 
 def main():
-    from DifficultyEasy.sol125ValidPalindrome import Solution
+    from StringArray.sol028StrStr import Solution
+    # haystack = "hello"; needle = "ll"
+    # haystack = "bbaa"; needle = "aab"
+    haystack = "mississippi"; needle = "pi"
 
-    s = "A man, a plan, a canal: Panama"
-    print("{}".format(s))
-    ans = Solution().isPalindrome(s)
+    print("haystack: {}, needle: {}".format(haystack, needle))
+    ans = Solution().strStr(haystack, needle)
     print("ans: {}".format(ans))
-
 
 if __name__ == '__main__':
 
