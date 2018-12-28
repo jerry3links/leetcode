@@ -13,18 +13,17 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ,
 
-
 [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  , , [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),   ,    ]
 
-## 目前已解 (37)
+## 目前已解 (39+1)
 
-### Easy (17)
+### Easy (18+1)
 
-\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix, **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,   (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ]
+\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),    **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/),  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目
 
-### Medium (17)
+### Medium (18)
 
-\[ [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/), **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle,  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/),  **622**. Design Circular Queue, **338**. Counting Bits, [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
+\[ [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle,  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/),  **622**. Design Circular Queue, **338**. Counting Bits, [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
 
 ### Hard (3)
 
@@ -86,7 +85,7 @@ class Solution:
 
 ####  [28. Implement strStr() | Easy](https://leetcode.com/problems/implement-strstr/)
 
-time comp.勢必為O(nm), space comp.為O(1), 暴力解不難, 難的是如何確保不TLE, 特殊case不計的話, 最簡潔的implementation如下:
+time comp.勢必為O(nm), space comp.為O(1), 暴力解不難, 要小心的是如何確保不TLE, 特殊case的if不加的話, 最簡潔的implementation如下 (加了會快一點):
 
 ```python
 def strStr(self, haystack, needle):
@@ -96,8 +95,8 @@ def strStr(self, haystack, needle):
             if i+j >= len(haystack): return -1 # haystack的剩餘長度已無法涵蓋needle的長度
             if haystack[i + j] != needle[j]: break # 一旦遇到不符就放棄, 從下個i開始
 ```
-
-
+#### [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/)
+注意edge case: `s="   "`
 
 
 #### [27. Remove Element | Easy](https://leetcode.com/problems/remove-element/submissions/)
@@ -120,13 +119,23 @@ class Solution:
 
 ### Ch 2. Math
 
-, **7**. Reverse Integer, **9**. Palindrome Number,
+#### **7**. Reverse Integer, 
+
+#### [**9**. Palindrome Number | Easy ](https://leetcode.com/problems/palindrome-number/submissions/)
+
+```python
+while x != 0:
+	sum = (sum * 10) + (x % 10)
+	x /= 10
+```
+
+
 
 ### Ch 3. Linked List
 
 #### [142. Linked List | Medium](https://leetcode.com/problems/linked-list-cycle-ii/)
 
-Python 用set或用dict都可以, 注意題目要求的回傳形式, 然後也要注意edge case (空陣列), 第一次做花了一小時
+Python 用set或用dict都可以, 注意題目要求的回傳形式, 然後也要注意edge case (空陣列), (note: 第一次做花了一小時)
 
 ### Ch 4. Binary Tree
 
@@ -163,7 +172,27 @@ class Solution:
 除以2, 餘數就會是LSB, 重複對商做, 直到無法除
 
 
-### Ch 6. MISC
+### Ch 6. Misc
+
+#### 54. Spiral Matrix
+
+用螺旋的方式印出矩陣元素直到中心, 提示: 走訪的方向是水平或垂直在切換, 每切換一次要走的步數都會減少, 又分前進後退, 所以會有4個if, 終止條件就是水平或垂直步數其一減至0
+
+```python
+while True:
+    for _ in range(n):
+        seq.append(matrix[row][++col])
+    if (--n == 0): break
+    for _ in range(m):
+        seq.append(matrix[++row][col])
+    if (--m == 0): break
+    for _ in range(n):
+        seq.append(matrix[row][col--])
+    if (--n == 0): break
+    for _ in range(m):
+        seq.append(matrix[row--][col])
+    if (--m == 0): break
+```
 
 
 
@@ -195,6 +224,12 @@ TBA
 ```
 
 </p></details>
+
+#### [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/)
+
+可以算是計算機的基礎題目, 遇到左括號就push到stack, 一旦遇到右括號就pop出來檢查 (stack是LIFO), 有錯就可以回傳有效作結, 所有字元都檢查完,若沒有錯, 還得檢查stack裡面有沒有沒處理的左括號 , 若有就還是無效, 最後, 空字串是有效的括號
+
+
 
 ### Ch 8. Dynamic Programming
 

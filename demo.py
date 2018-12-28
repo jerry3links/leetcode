@@ -17,13 +17,10 @@ def stringToIntegerList(input):
 
 
 def main():
-    from StringArray.sol028StrStr import Solution
-    # haystack = "hello"; needle = "ll"
-    # haystack = "bbaa"; needle = "aab"
-    haystack = "mississippi"; needle = "pi"
-
-    print("haystack: {}, needle: {}".format(haystack, needle))
-    ans = Solution().strStr(haystack, needle)
+    from DifficultyEasy.solE013Roman2Int import Solution
+    s = "IX"
+    print(s)
+    ans = Solution().romanToInt(s)
     print("ans: {}".format(ans))
 
 if __name__ == '__main__':
