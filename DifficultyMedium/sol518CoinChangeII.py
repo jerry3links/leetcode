@@ -6,7 +6,7 @@
     print(ans)
 """
 
-
+# Note: all possible combinations (# of combinations)
 class Solution(object):
     def change(self, amount, coins):
         """
@@ -35,7 +35,5 @@ class Solution(object):
                     f[i][target] = f[i-1][target] + f[i][target - coins[i]]
                 else:
                     f[i][target] = f[i-1][target]
-
-
 
         return f[-1][-1]

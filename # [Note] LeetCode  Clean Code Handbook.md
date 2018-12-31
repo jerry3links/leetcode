@@ -9,25 +9,25 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ## 進行中 (優先待解, 還沒參透, 或想繼續鑽研的)
 
-\[[**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/),   [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), 
+\[   [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), 
 
 ,
 
 [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  , , [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),   ,    ]
 
-## 目前已解 (39+1)
+## 目前已解 (41+1)
 
-### Easy (18+1)
+### Easy (19+1)
 
-\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number, **14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),    **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/),  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目
+\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number,   [**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  **14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),    **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/),  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目
 
-### Medium (18)
+### Medium (19)
 
-\[ [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle,  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/),  **622**. Design Circular Queue, **338**. Counting Bits, [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
+\[[(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle,  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/),  **622**. Design Circular Queue, **338**. Counting Bits, [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
 
 ### Hard (3)
 
-\[ [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/),   **45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(很難, py不能用DP, 目前看GA有比之前看理解), [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), ]
+\[ [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/),   [**45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(很難, py不能用DP, 目前看GA有比之前看理解), [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), ]
 
 
 ## Note
@@ -302,59 +302,60 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
 
 #### 其它各題解法雜記
 
-- [322\. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/submissions/)
-  可以用list, pop作為dequeue, 或用索引0和-1來dequeue, 第一版的解法感覺沒有circular(或ring)的概念在內, 下面是有head和tail的索引寫法, tail用shift之後就有ring的感覺
+##### [322\. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/submissions/)
+可以用list, pop作為dequeue, 或用索引0和-1來dequeue, 第一版的解法感覺沒有circular(或ring)的概念在內, 下面是有head和tail的索引寫法, tail用shift之後就有ring的感覺
 
-    <details><summary>Solution</summary><p>
+<details><summary>Solution</summary><p>
 
-    ```python
-    class MyCircularQueue:
-        def __init__(self, k):
-            self.maxS = k
-            self.head = 0
-            self.tail = 0
-            self.list = []
-            self.size = 0  
-        def enQueue(self, value):  
-            if self.isFull():
-                return False  
-            self.list.append(value)
-            self.tail = (self.tail + 1) % self.maxS
-            self.size += 1
-            return True
-        def deQueue(self):
-            if self.isEmpty():
-                return False
-            del(self.list[self.head])
-            self.tail = (self.tail - 1) % self.maxS
-            self.size -= 1
-            return True
-        def Front(self):
-            if self.isEmpty():
-                return -1
-            return self.list[self.head]
-        def Rear(self):
-            if self.isEmpty():
-                return -1
-            return self.list[(self.tail-1) % self.maxS]
-        def isEmpty(self):
-            return self.size == 0
-        def isFull(self):
-            return self.size >= self.maxS
-    ```
-    </p></details>
+```python
+class MyCircularQueue:
+    def __init__(self, k):
+        self.maxS = k
+        self.head = 0
+        self.tail = 0
+        self.list = []
+        self.size = 0  
+    def enQueue(self, value):  
+        if self.isFull():
+            return False  
+        self.list.append(value)
+        self.tail = (self.tail + 1) % self.maxS
+        self.size += 1
+        return True
+    def deQueue(self):
+        if self.isEmpty():
+            return False
+        del(self.list[self.head])
+        self.tail = (self.tail - 1) % self.maxS
+        self.size -= 1
+        return True
+    def Front(self):
+        if self.isEmpty():
+            return -1
+        return self.list[self.head]
+    def Rear(self):
+        if self.isEmpty():
+            return -1
+        return self.list[(self.tail-1) % self.maxS]
+    def isEmpty(self):
+        return self.size == 0
+    def isFull(self):
+        return self.size >= self.maxS
+```
+</p></details>
 
 
 
-- [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
+##### [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 
-	- DP解
-      和322. Coin Change類似, 把square number當作硬幣集合, n就是要找的錢量, 找出最少的硬幣組合, 就是最少的平方數組合
-	- BFS解
+- DP解
+  和322. Coin Change類似, 把square number當作硬幣集合, n就是要找的錢量, 找出最少的硬幣組合, 就是最少的平方數組合
+- BFS解
+
     <details><summary>BFS Solution</summary><p>
 
     ```python=
-    
+
     class Solution:
         def numSquares(self, n):
             """
@@ -362,13 +363,13 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
             :rtype: int
             """
             box = [i*i for i in range(1,n+1)]
-    
+
             # edge case
             if 2 >n:
                 return n
-    
+
             toCheck = {n}
-    
+
             cnt = 0
             while toCheck:
                 cnt += 1
@@ -381,459 +382,478 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
                             return cnt
                         temp.add(x - y)
                 toCheck = temp
-    
+
             return cnt
     ```
-    ​                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </p></details>
-
-- [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/submissions/)
-    <details><summary>Solution (Without String)</summary><p>
-
-    ```python=
-    class Solution:
-        def longestCommonPrefix(self, strs):
-            """
-            :type strs: List[str]
-            :rtype: str
-            """
-            if 0 >= len(strs):
-                return ""
-            elif len(strs) == 1:
-                return strs[0]
-            base = strs[0]
-            cnt = 0
-            cm_map = {}
-            for trgt in strs[1:]:
-    
-                idx = 0
-                flag = True
-                cstr = ""
-                while flag and len(trgt) > idx and len(base) > idx:
-                    if base[idx] != trgt[idx]:
-                        flag = False
-                        break
-                    cstr += base[idx]
-                    idx +=1
-                cm_len = idx
-                if cm_len > 0:
-                    cm_map[cm_len] = cstr
-                else:
-                    return ""
-            if 0 >= len(cm_map):
-                return ""
-            a = min(cm_map.keys())
-            return cm_map[a]
-    
-    ```
-
-    </p></details>
-    暴力解, 因為要每個都有共通, 所以一遇到有common為0就可以return空字串, 另外要注意幾個邊際case, 例如空list, 只有一個字串等等
-
-- [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
-    <details><summary>Solution (Brute Force)</summary><p>
-
-    ```python=
-    class Solution:
-        def countBits(self, num):
-            """
-            :type num: int
-            :rtype: List[int]
-            """
-            ans = []        
-            for val in range(0, num+1):
-                cnt = 0
-                rem = int(val / 2)
-                mod = val % 2
-                cnt += 1 if mod == 1 else False
-                while rem > 0:
-                    mod = rem % 2
-                    cnt += 1 if mod == 1 else False
-                    rem = int(rem / 2)
-                ans.append(cnt)
-            return ans
-    ```
-
     </p></details>
 
-    <details><summary>Solution (Better)</summary><p>
+##### [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/submissions/)
 
-    ```python=
-    class Solution:
-        def countBits(self, num):
-            ans=[0]
-            i=1
-            while lt(i,num+1):
-                i *= 2
-                for j in range(len(ans)):
-                    ans.append(ans[j]+1)
-            return ans[:num+1]
-    ```
+<details><summary>Solution (Without String)</summary><p>
 
-    </p></details>
+```python=
+class Solution:
+    def longestCommonPrefix(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: str
+        """
+        if 0 >= len(strs):
+            return ""
+        elif len(strs) == 1:
+            return strs[0]
+        base = strs[0]
+        cnt = 0
+        cm_map = {}
+        for trgt in strs[1:]:
 
-- [103. Binart Tree Zigzag Lvel Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
-    <details><summary>Solution</summary><p>
-
-    ```python=
-    
-    class Solution:
-    
-        depthMap = {}
-    
-        def pushTree(self, root, d):
-    
-            if not root:
-                return
-    
-            if d in self.depthMap:
-                self.depthMap[d].append(root)
-            else:
-                self.depthMap[d] = [root]
-    
-            self.pushTree(root.left, d+1)
-            self.pushTree(root.right, d+1)
-    
-        def zigzagLevelOrder(self, root):
-            """
-            :type root: TreeNode
-            :rtype: List[List[int]]
-            """
-    
-            self.pushTree(root, 0)
-    
-            depths = self.depthMap.keys()
-    
-            L = []
-            if not depths:
-                return L
-    
-            for d in range(0, max(depths) + 1):
-                nodeLst = self.depthMap[d]
-                if d % 2 == 0:
-                    l = []
-                    for i in range(0, len(nodeLst)):
-                        l.append(nodeLst[i].val)
-                    L.append(l)
-                else:
-                    nodeLstR = list(reversed(nodeLst))
-                    l = []
-                    for i in range(0, len(nodeLstR)):
-                        l.append(nodeLstR[i].val)
-                    L.append(l)
-            self.depthMap.clear()
-            return L
-    
-    ```
-
-    </p></details>
-
-- [120. Triangle](https://leetcode.com/problems/triangle/)
-    <details><summary>Solution</summary><p>
-
-    ```python=
-    class Solution:
-        def minimumTotal(self, trg):
-            l=len(trg)
-            for i in range(l):
-                trg[i]+=[0]*(l-(i+1)) # 為了方便加值, 把"三角形"擴增為fix的陣列
-            for i in range(l-2, -1, -1): # 從最下層開始
-                for j in range(i+1): # 每個元素都做, 找最小的往上加
-                    if trg[i+1][j+1] >= trg[i+1][j]: # 0 1 2
-                        trg[i][j]+= trg[i+1][j]
-                    else:
-                        trg[i][j]+= trg[i+1][j+1]
-            return trg[0][0] # 加到最後一層 只會有一個最佳解
-    ```
-
-    </p></details>
-
-- [179. Largest Number]()
-
-    <details><summary>Solution</summary><p>
-
-    ```python=
-    class Solution:
-        def largestNumber(self, nums):
-    
-            # map will return nums' iterable using str()
-            nums = map(str,nums)
-            # sort list using self defined cmp, and using descending order
-            nums.sort(cmp=lambda a,b : cmp(a+b,b+a), reverse=True)
-    
-            # join vs split
-            # note the A or B, will return B if A is empty string
-            return ''.join(nums).lstrip('0') or '0'
-    ```
-
-    </p></details>
-- [200. Number of Islands](https://leetcode.com/problems/number-of-islands/submissions/)
-  用dfs, 將拜訪過的位置標為0, 注意index out of range的問題, 效率可達60%
-
-- [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/submissions/)
-  解題想法就是用shift, 為了應付負號, 先取一個signed的變數, 最後要記得檢查是否超過有號的32bit範圍 (0x7fffffff), 因為我已經取負號, 所以其實不需要用abs
-    <details><summary>Solution</summary><p>
-
-    ```python=
-    class Solution:
-        def reverse(self, x):
-            """
-            :type x: int
-            :rtype: int
-            """
-            signed = 1 if x >= 0 else -1
-            x *= signed
-            ans = 0
-            while x != 0:
-  
-                m = x % 10
-                x = int(x / 10)
-                ans = ans * 10 + m
-            if abs(ans) > 0x7fffffff:
-                return 0
-  
-            return ans * signed
-    ```
-
-    </p></details>
-
-- [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
-  解題的想法就是shift不斷拆解digit, 為了拿到長度先go through一次, 用array或hash, 第二次只要做到一半長度即可
-  要注意的testcase是0~9還有負數
-    <details><summary>Solution (Without String)</summary><p>
-
-    ```python=
-    class Solution:
-        def isPalindrome(self, x):
-            """
-            :type x: int
-            :rtype: bool
-            """
-            if x less than 0 :
-                return False
-            elif x less than 10:
-                return True
-  
-            l = 0
-  
-            tab = {}
-            while x != 0:
-                m = x % 10
-                tab[l] = m
-                x = int(x/10)
-  
-                l += 1
-  
-            flag = True
             idx = 0
-            while flag == True and idx less than int(l/2): #
-                print("{}vs{}:{}".format(tab[idx],tab[l-idx-1],flag))
-                if tab[idx] == tab[l-idx-1]:
-                    flag = True
-                else:
+            flag = True
+            cstr = ""
+            while flag and len(trgt) > idx and len(base) > idx:
+                if base[idx] != trgt[idx]:
                     flag = False
-                idx += 1 
-  
-            return flag
-    ```
+                    break
+                cstr += base[idx]
+                idx +=1
+            cm_len = idx
+            if cm_len > 0:
+                cm_map[cm_len] = cstr
+            else:
+                return ""
+        if 0 >= len(cm_map):
+            return ""
+        a = min(cm_map.keys())
+        return cm_map[a]
 
-    </p></details>
+```
 
-- [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+</p></details>
+暴力解, 因為要每個都有共通, 所以一遇到有common為0就可以return空字串, 另外要注意幾個邊際case, 例如空list, 只有一個字串等等
 
-    <details><summary>Solution</summary><p>
+##### [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
 
-    ```python=
-    class Solution:
-        def maxArea(self, height, result = 0, L = 0):
-            if not height: return 0
-            R = len(height)-1
-            while L != R:
-                result = max(result, min(height[L], height[R])*(R-L))
-                if height[L] < height[R]:
-                    L += 1
+<details><summary>Solution (Brute Force)</summary><p>
+
+```python=
+class Solution:
+    def countBits(self, num):
+        """
+        :type num: int
+        :rtype: List[int]
+        """
+        ans = []        
+        for val in range(0, num+1):
+            cnt = 0
+            rem = int(val / 2)
+            mod = val % 2
+            cnt += 1 if mod == 1 else False
+            while rem > 0:
+                mod = rem % 2
+                cnt += 1 if mod == 1 else False
+                rem = int(rem / 2)
+            ans.append(cnt)
+        return ans
+```
+
+</p></details>
+
+<details><summary>Solution (Better)</summary><p>
+
+```python=
+class Solution:
+    def countBits(self, num):
+        ans=[0]
+        i=1
+        while lt(i,num+1):
+            i *= 2
+            for j in range(len(ans)):
+                ans.append(ans[j]+1)
+        return ans[:num+1]
+```
+
+</p></details>
+
+##### [(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)
+
+初次解找到的規則是head + tail, 一開始就先建一個string list `zz = ['' for _ in range(num)]`, head就是照著num的量將橫向的字元依次append上去, tail則是剩下的字元用斜向去拜訪, 依zig zag的規則拜訪, 會少兩個字, 也就是`j in range(num - 2)`, 並且要從倒數第二個的string list開始 (`zz[num - 2 - j]`), 剛開始為了符合範例, 連空格都有印出來, 用了很多append, 執行起來只有5%的效率, 後來發現其實不用空格
+
+##### [103. Binary Tree Zigzag Lvel Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+
+<details><summary>Solution</summary><p>
+
+```python=
+
+class Solution:
+
+    depthMap = {}
+
+    def pushTree(self, root, d):
+
+        if not root:
+            return
+
+        if d in self.depthMap:
+            self.depthMap[d].append(root)
+        else:
+            self.depthMap[d] = [root]
+
+        self.pushTree(root.left, d+1)
+        self.pushTree(root.right, d+1)
+
+    def zigzagLevelOrder(self, root):
+        """
+        :type root: TreeNode
+        :rtype: List[List[int]]
+        """
+
+        self.pushTree(root, 0)
+
+        depths = self.depthMap.keys()
+
+        L = []
+        if not depths:
+            return L
+
+        for d in range(0, max(depths) + 1):
+            nodeLst = self.depthMap[d]
+            if d % 2 == 0:
+                l = []
+                for i in range(0, len(nodeLst)):
+                    l.append(nodeLst[i].val)
+                L.append(l)
+            else:
+                nodeLstR = list(reversed(nodeLst))
+                l = []
+                for i in range(0, len(nodeLstR)):
+                    l.append(nodeLstR[i].val)
+                L.append(l)
+        self.depthMap.clear()
+        return L
+
+```
+
+</p></details>
+
+##### [120. Triangle](https://leetcode.com/problems/triangle/)
+
+<details><summary>Solution</summary><p>
+
+```python=
+class Solution:
+    def minimumTotal(self, trg):
+        l=len(trg)
+        for i in range(l):
+            trg[i]+=[0]*(l-(i+1)) # 為了方便加值, 把"三角形"擴增為fix的陣列
+        for i in range(l-2, -1, -1): # 從最下層開始
+            for j in range(i+1): # 每個元素都做, 找最小的往上加
+                if trg[i+1][j+1] >= trg[i+1][j]: # 0 1 2
+                    trg[i][j]+= trg[i+1][j]
                 else:
-                    R -= 1
-            return result
-    ```
+                    trg[i][j]+= trg[i+1][j+1]
+        return trg[0][0] # 加到最後一層 只會有一個最佳解
+```
 
-    </p></details>
+</p></details>
+
+##### [179. Largest Number]()
+
+<details><summary>Solution</summary><p>
+
+```python=
+class Solution:
+    def largestNumber(self, nums):
+
+        # map will return nums' iterable using str()
+        nums = map(str,nums)
+        # sort list using self defined cmp, and using descending order
+        nums.sort(cmp=lambda a,b : cmp(a+b,b+a), reverse=True)
+
+        # join vs split
+        # note the A or B, will return B if A is empty string
+        return ''.join(nums).lstrip('0') or '0'
+```
+
+</p></details>
+
+##### [200. Number of Islands](https://leetcode.com/problems/number-of-islands/submissions/)
+用dfs, 將拜訪過的位置標為0, 注意index out of range的問題, 效率可達60%
+
+##### [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/submissions/)
+解題想法就是用shift, 為了應付負號, 先取一個signed的變數, 最後要記得檢查是否超過有號的32bit範圍 (0x7fffffff), 因為我已經取負號, 所以其實不需要用abs
+
+<details><summary>Solution</summary><p>
+
+```python=
+class Solution:
+    def reverse(self, x):
+        """
+        :type x: int
+        :rtype: int
+        """
+        signed = 1 if x >= 0 else -1
+        x *= signed
+        ans = 0
+        while x != 0:
+
+            m = x % 10
+            x = int(x / 10)
+            ans = ans * 10 + m
+        if abs(ans) > 0x7fffffff:
+            return 0
+
+        return ans * signed
+```
+
+</p></details>
+
+##### [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+解題的想法就是shift不斷拆解digit, 為了拿到長度先go through一次, 用array或hash, 第二次只要做到一半長度即可
+要注意的testcase是0~9還有負數
+
+<details><summary>Solution (Without String)</summary><p>
+
+```python=
+class Solution:
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        if x less than 0 :
+            return False
+        elif x less than 10:
+            return True
+
+        l = 0
+
+        tab = {}
+        while x != 0:
+            m = x % 10
+            tab[l] = m
+            x = int(x/10)
+
+            l += 1
+
+        flag = True
+        idx = 0
+        while flag == True and idx less than int(l/2): #
+            print("{}vs{}:{}".format(tab[idx],tab[l-idx-1],flag))
+            if tab[idx] == tab[l-idx-1]:
+                flag = True
+            else:
+                flag = False
+            idx += 1 
+
+        return flag
+```
+
+</p></details>
+
+##### [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+
+<details><summary>Solution</summary><p>
+
+```python=
+class Solution:
+    def maxArea(self, height, result = 0, L = 0):
+        if not height: return 0
+        R = len(height)-1
+        while L != R:
+            result = max(result, min(height[L], height[R])*(R-L))
+            if height[R] > height[L]:
+                L += 1
+            else:
+                R -= 1
+        return result
+```
+
+</p></details>
 
 
-- [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+##### [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/)
 
-  或者先轉成後序([ref.](http://www2.lssh.tp.edu.tw/~hlf/class-1/lang-c/stack2.htm))
+或者先轉成後序([ref.](http://www2.lssh.tp.edu.tw/~hlf/class-1/lang-c/stack2.htm))
 
-    <details><summary>Solution</summary><p>
+<details><summary>Solution</summary><p>
 
-    ```python=
-    class Solution:
-        def calculate(self, s):
-            # 準備一個計算用的stack
-            stack = []
-            # 取代空白字元
-            s = s.replace(" ", "")
-            # 讀取字串
-            for c in s:
-                # 遇到括號就開始計算
-                if c == ")":
-                    # ...
-    
-                # 遇到運算子或運算元就放到stack
-                elif c.isdigit():
-                    if stack:
-                        tail = stack[-1]
-                        # 處理長度大於1的運算元
-    
-                    else:
-                        stack.append(c)
+```python=
+class Solution:
+    def calculate(self, s):
+        # 準備一個計算用的stack
+        stack = []
+        # 取代空白字元
+        s = s.replace(" ", "")
+        # 讀取字串
+        for c in s:
+            # 遇到括號就開始計算
+            if c == ")":
+                # ...
+
+            # 遇到運算子或運算元就放到stack
+            elif c.isdigit():
+                if stack:
+                    tail = stack[-1]
+                    # 處理長度大於1的運算元
+
                 else:
                     stack.append(c)
-    
-            # 再清空一次stack
-            res = 0
-            while stack:
-                # ...
-            return res
-    ```
-    </p></details>
+            else:
+                stack.append(c)
 
-- [785. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)
+        # 再清空一次stack
+        res = 0
+        while stack:
+            # ...
+        return res
+```
+</p></details>
 
-    <details><summary>Solution</summary><p>
+##### [785. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)
 
-    ```python=
-    class Solution:
-    
-        def isBipartite(self, graph):
-            """
-            :type graph: List[List[int]]
-            :rtype: bool
-            """
-            print("Initialize ...")
-            colors = [-1 for i in graph]
-            for v in range(len(graph)):
-                if colors[v] == -1:
-                    colors[v] = 0
-                    if self.sameOccur(v, graph, colors):
-                        return False
-            return True
-    
-        def sameOccur(self, v, graph, colors):
-            for w in graph[v]:
-                if colors[w] == -1:
-                    colors[w] = int(not colors[v])
-                    if self.sameOccur(w, graph, colors):
-                        return True
-                else:
-                    if colors[w] == colors[v]:
-                        return True
-            return False
-    ```
+<details><summary>Solution</summary><p>
 
-    </p></details>
+```python=
+class Solution:
 
-- [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+    def isBipartite(self, graph):
+        """
+        :type graph: List[List[int]]
+        :rtype: bool
+        """
+        print("Initialize ...")
+        colors = [-1 for i in graph]
+        for v in range(len(graph)):
+            if colors[v] == -1:
+                colors[v] = 0
+                if self.sameOccur(v, graph, colors):
+                    return False
+        return True
 
-    下面是n平方的遞迴解法, 仍然會遇到TLE, 注意python 迴圈中能不要用append就不用
+    def sameOccur(self, v, graph, colors):
+        for w in graph[v]:
+            if colors[w] == -1:
+                colors[w] = int(not colors[v])
+                if self.sameOccur(w, graph, colors):
+                    return True
+            else:
+                if colors[w] == colors[v]:
+                    return True
+        return False
+```
 
-    <details><summary>Solution</summary><p>
+</p></details>
 
-    ```python=
-        def LIS(self, nums):
-    
-            if len(nums) < 1:
-                return 0
-            T = [1 for v in range(len(nums))]
-            LIS = 0
-            for i in range(len(num)):
-                for j in range(i):
-                    if num[j] > num[i]:
-                        T[i] = max(T[i], T[j] + 1)
-                if T[i] > LIS:
-                    LIS = T[i]
-            return LIS
-            
-    ```
+##### [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 
-    </p></details>
+下面是n平方的遞迴解法, 仍然會遇到TLE, 注意python 迴圈中能不要用append就不用
 
+<details><summary>Solution</summary><p>
 
-- [45. Jump Game II]()
+```python=
+    def LIS(self, nums):
 
-  以nums = [2,2,3,1,1,4]為例, 第二層while的意義是尋找從定點i跳一次後能達到的最大距離(next_reach), 當i和curr_reach為0時, 代表是初次執行還沒開始跳, 第一次執行 (跳) 後, next_reach就會是nums[0] = 2, 這裡都會檢查能達到的最大距離是否到終點, 是就直接回傳結果cnt並結束, 否則就會檢查每一個能達到的點, i用來記錄位置 (第一次跳只有0, 第二次跳時因為curr_reach是2, 所以延續上次從1開始到2共二次, 檢查到nums[2]時已經可以跳到終點了所以結束), 第一層while就是每跳完一次會對cnt加一, 並記錄上次能達的最大距離 (curr_next = next_reach)
-    <details><summary>Solution</summary><p>
+        if 1 > len(nums):
+            return 0
+        T = [1 for v in range(len(nums))]
+        LIS = 0
+        for i in range(len(num)):
+            for j in range(i):
+                if num[j] > num[i]:
+                    T[i] = max(T[i], T[j] + 1)
+            if T[i] > LIS:
+                LIS = T[i]
+        return LIS
 
-    ```python=
-        def jump(self, nums):
-            """
-            :type nums: List[int]
-            :rtype: int
-            """
-            if len(nums) <= 1:
-                return 0
-            curr_reach = next_reach = cnt = i = 0
-            while True:
-                while i <= curr_reach:
-                    next_reach = max(i+nums[i], next_reach)
-                    if next_reach >= len(nums) - 1:
-                        return cnt + 1
-                    i += 1
-                curr_reach = next_reach
-                cnt += 1
-    ```
+```
 
-    </p></details>
-
-- [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/)
-  這題麻煩的是非嚴格遞增, 要處理開頭的相同元素
-
-- [**907**. Sum of Subarray Minimum](https://leetcode.com/problems/sum-of-subarray-minimums/)
-
-  - 用兩個for loop列出所有sub array, 然後加總每一個陣列的最小值, 可解但會在leetcode上TLE
-  - 利用monotonic stack (單調遞增或遞減的stack), 可在O(n)時間內找到PLE和NLE (next less element),  找到每個元素與PLE和NLE的距離, 就可以推算出以此元素為最小值的所有陣列, 每個元素都找過就是所有陣列, 相乘後加總就是答案, 最後要注意要取mod = 1e9 * 7, 然後轉成整數 ([參考教學](https://leetcode.com/problems/sum-of-subarray-minimums/discuss/178876/stack-solution-with-very-detailed-explanation-step-by-step))
+</p></details>
 
 
-- [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/)
-  - BFS解
-    用279. Perfect Squares的概念來解, 但要注意set的成本, 不能放在while loop裡面, 可以在while裡用append, 不要每個loop都重新創set
-  - DP解([參考教學](https://www.youtube.com/watch?v=za2bgJLHmxI&t=1277s))
-    根據目標量列出一張DP表 (0~amount), 0就設為0 (沒有硬幣找), 初值可用2**32 (表INVALID) 或無限大 float("inf"), 最後跑完如果沒變, 表示現有硬幣集合中無法組合出該量. 這個方式可以不用先對硬幣集合排序, 每種硬幣從1開始填表, 填到這個幣值再挑下一個硬幣, 每個硬幣都做完就結束了, 式子是dp[i] = min(dp[i], dp[i - coin] + 1), 舉例來說: 有{1,2,5}三種硬幣目標是3元, 挑1元硬幣填時, dp[1] = min(dp[1], dp[1-1元] + 1), dp[2] = min(dp[2], dp[2-1元] + 1), ..., 就是用1元硬幣找的所有解, 當挑到2元硬幣時, 就會再填一次dp[2] = min(dp[2], dp[2-2元] + 1), 全部跑完這格就是解
+##### [45. Jump Game II]()
 
-- [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/submissions/)
-  DP解([參考教學](https://leetcode.com/problems/coin-change-2/discuss/200847/Python-easy-to-understand-dp-solution)), 方法是先將coin由小到大排序, coins[0]就是第一種錢幣, coins[1]就是前兩種錢幣 ... , f(i,j)就是coin set i可以換成錢j的方法數, 可被化約成兩種可能:
+以nums = \[2,2,3,1,1,4]為例, 第二層while的意義是尋找從定點i跳一次後能達到的最大距離(next_reach), 當i和curr_reach為0時, 代表是初次執行還沒開始跳, 第一次執行 (跳) 後, next_reach就會是nums\[0] = 2, 這裡都會檢查能達到的最大距離是否到終點, 是就直接回傳結果cnt並結束, 否則就會檢查每一個能達到的點, i用來記錄位置 (第一次跳只有0, 第二次跳時因為curr_reach是2, 所以延續上次從1開始到2共二次, 檢查到nums\[2]時已經可以跳到終點了所以結束), 第一層while就是每跳完一次會對cnt加一, 並記錄上次能達的最大距離 (curr_next = next_reach)
+<details><summary>Solution</summary><p>
 
-  - 如果coins[i]的最大幣值大於j, 則f(i,j) = f(i-1, j)
+```python=
+    def jump(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        if len(nums) <= 1:
+            return 0
+        curr_reach = next_reach = cnt = i = 0
+        while True:
+            while i <= curr_reach:
+                next_reach = max(i+nums[i], next_reach)
+                if next_reach >= len(nums) - 1:
+                    return cnt + 1
+                i += 1
+            curr_reach = next_reach
+            cnt += 1
+```
 
-    例如f($2, $3 to $2), 最大幣值無法組成2, 所以其實就是f($2 to $2)的答案
+</p></details>
 
-  - 如果coins[i]的最大幣值小於等於j, 則f(i,j) = f(i,j-最大幣值) + f(i-1,j)
+##### [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/)
+這題麻煩的是非嚴格遞增, 要處理開頭的相同元素
 
-    f($2, $3 to $4), 最大幣值可以從目標量扣除, 變成答案的一部分, 所以相當於 f($2, $3 to $2) + f($2 to $4), 前者是就是同一排左邊的答案, 後者就是上排 (較小的那些幣值) 對同樣目標量的答案
+##### [**907**. Sum of Subarray Minimum](https://leetcode.com/problems/sum-of-subarray-minimums/)
 
-- [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/)
-  Backtracking Algorithm ([參考教學 - 花花](https://youtu.be/Xa-yETqFNEQ), [參考教學 - Geeks](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/)), 可用遞迴的方式逐列執行, 我的感覺是有點像DFS, pseudo code如下, isSafe要檢查對角線可利用python的zip來達成, 或是用花花的對角線索引 (2n-1 = x + y or x - y + n -1):
+- 用兩個for loop列出所有sub array, 然後加總每一個陣列的最小值, 可解但會在leetcode上TLE
+- 利用monotonic stack (單調遞增或遞減的stack), 可在O(n)時間內找到PLE和NLE (next less element),  找到每個元素與PLE和NLE的距離, 就可以推算出以此元素為最小值的所有陣列, 每個元素都找過就是所有陣列, 相乘後加總就是答案, 最後要注意要取mod = 1e9 * 7, 然後轉成整數 ([參考教學](https://leetcode.com/problems/sum-of-subarray-minimums/discuss/178876/stack-solution-with-very-detailed-explanation-step-by-step))
 
-  ```python
-  def solve(row, board, ans):
-      if row == N:
-          ans += board
-          return
-      for col in range(0, N):
-          if not isSafe(row, col, board): continue
-          board[row][col] = "Q" # 可以放就放 (有過上面檢查), 然後往下一列做
-          solve(row + 1, col, board, ans) # 這邊會往下走各種分支, 直到終止 (無解或有解)
-          board[row][col] = "." # 放完要清空, 看能否在下一行放 (也就是繼續看各分支)
+##### [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/)
+
+這題是求最少硬幣種類組合, 所以可用279. Perfect Squares來解, 和518. Coin Change 2 不太一樣 (此題類39)
+
+- BFS解
+  用279. Perfect Squares的概念來解, 但要注意set的成本, 不能放在while loop裡面, 可以在while裡用append, 不要每個loop都重新創set
+- DP解([參考教學](https://www.youtube.com/watch?v=za2bgJLHmxI&t=1277s))
+  根據目標量列出一張DP表 (0~amount), 0就設為0 (沒有硬幣找), 初值可用2\*\*32 (表INVALID) 或無限大 float("inf"), 最後跑完如果沒變, 表示現有硬幣集合中無法組合出該量. 這個方式可以不用先對硬幣集合排序, 每種硬幣從1開始填表, 填到這個幣值再挑下一個硬幣, 每個硬幣都做完就結束了, 式子是`dp[i] = min(dp[i], dp[i - coin] + 1)`, 舉例來說: 有{1,2,5}三種硬幣目標是3元, 挑1元硬幣填時, `dp[1] = min(dp[1], dp[1-1元] + 1)`, `dp[2] = min(dp[2], dp[2-1元] + 1)`, ..., 就是用1元硬幣找的所有解, 當挑到2元硬幣時, 就會再填一次`dp[2] = min(dp[2], dp[2-2元] + 1)`, 全部跑完這格就是解
+
+##### [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/submissions/)
+
+這題是求所有組合法, 類似39. Combination Sum, 和279及322 不太一樣. DP解([參考教學](https://leetcode.com/problems/coin-change-2/discuss/200847/Python-easy-to-understand-dp-solution)), 方法是先將coin由小到大排序, coins\[0]就是第一種錢幣, coins\[1]就是前兩種錢幣 ... , f(i,j)就是coin set i可以換成錢j的方法數, 可被化約成兩種可能:
+
+- 如果coins\[i]的最大幣值大於j, 則f(i,j) = f(i-1, j)
+
+  例如f($2, $3 to $2), 最大幣值無法組成2, 所以其實就是f($2 to $2)的答案
+
+- 如果coins[i]的最大幣值小於等於j, 則f(i,j) = f(i,j-最大幣值) + f(i-1,j)
+
+  f($2, $3 to $4), 最大幣值可以從目標量扣除, 變成答案的一部分, 所以相當於 f($2, $3 to $2) + f($2 to $4), 前者是就是同一排左邊的答案, 後者就是上排 (較小的那些幣值) 對同樣目標量的答案
+
+##### [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/)
+
+Backtracking Algorithm ([參考教學 - 花花](https://youtu.be/Xa-yETqFNEQ), [參考教學 - Geeks](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/)), 可用遞迴的方式逐列執行, 我的感覺是有點像DFS, pseudo code如下, isSafe要檢查對角線可利用python的zip來達成, 或是用花花的對角線索引 (2n-1 = x + y or x - y + n -1):
+
+```python
+def solve(row, board, ans):
+  if row == N:
+      ans += board
       return
-  # 執行時用solve(0, 空棋盤, 空串列)
-  ```
+  for col in range(0, N):
+      if not isSafe(row, col, board): continue
+      board[row][col] = "Q" # 可以放就放 (有過上面檢查), 然後往下一列做
+      solve(row + 1, col, board, ans) # 這邊會往下走各種分支, 直到終止 (無解或有解)
+      board[row][col] = "." # 放完要清空, 看能否在下一行放 (也就是繼續看各分支)
+  return
+# 執行時用solve(0, 空棋盤, 空串列)
+```
 
-### Todo
+##### [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/) 
+  規則是I -> (V, X), X -> (L, C), C -> (D, M), 所以遇到IXC三種就特別檢查下一個是否為可對應的tuple, 否則就照value map加上去即可, 用while loop比較好控制
 
-https://leetcode.com/problemset/all/
-https://interviews.skype.com/zh/Interviews?code=72a9eaf2-a055-9048-1a18-b527fcb4fbad
-http://www.raychase.net/tag/leetcode
-https://codingcompetitions.withgoogle.com/codejam/archive
-[偷看幾摳的repo](https://github.com/eagle0401)
+### Reference
+
+- https://leetcode.com/problemset/all/
+- https://interviews.skype.com/zh/Interviews?code=72a9eaf2-a055-9048-1a18-b527fcb4fbad
+- http://www.raychase.net/tag/leetcode
+- https://codingcompetitions.withgoogle.com/codejam/archive
+- [偷看幾摳的repo](https://github.com/eagle0401)
+- [System Design](https://github.com/qiu-hanqiao/system-design-primer/blob/master/README.md)
 
 Code Block範本
 <details><summary>Solution</summary><p>

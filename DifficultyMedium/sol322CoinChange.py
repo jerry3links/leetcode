@@ -6,7 +6,7 @@
     print("ans = {}".format(ans))
 """
 
-
+# Note: minimum coins
 class Solution(object):
     def coinChange(self, coins, amount):
         """
