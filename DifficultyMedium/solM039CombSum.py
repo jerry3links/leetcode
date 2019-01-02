@@ -18,16 +18,46 @@ class Solution(object):
             return []
 
         candidates.sort()
-        f = [[[]] * (target + 1) for _ in range(len(candidates))]
+        # initialize
+        f = [[[] for _ in range(target+1)] for _ in range(len(candidates))]
 
+        # there is no combination for ZERO
         for i in range(len(candidates)):
-            # print(candidates[:i+1])
-            # a = [amount for amount in range(1, target + 1)]
-            for amount in range(1, target + 1):
-                f[i][amount] =
+            f[i][0] = [[]]
 
-        self.printout(f)
+        # only one type of COIN, concatenate if there exists combination
+        for amount in range(1, target + 1):
+            remain = amount - candidates[0]
+            if remain == 0:
+                f[0][amount] = [[candidates[0]]]
+            elif remain > 0 and len(f[0][remain]) > 0:
+                f[0][amount] = [f[0][remain][0] + [candidates[0]]]
+
+        for i in range(1, len(candidates)):
+
+            # print("for COINS set {} ...".format(candidates[:i+1]))
+
+            for amount in range(1, target + 1):
+                remain = amount - candidates[i]
+
+                # includes previous COINS set
+                if len(f[i - 1][amount]) > 0:
+                    f[i][amount] = list(f[i - 1][amount])
+
+                if remain == 0:
+                    # current COIN is equal to the target amount
+                    f[i][amount].append([candidates[i]])
+                elif remain > 0:
+                    # check if there exists combinations for remain value
+                    for base in f[i][remain]:
+                        tmp = list(base) + [candidates[i]]
+                        f[i][amount].append(tmp)
+
+        # self.printout(f)
+        return f[-1][-1]
 
     def printout(self, f):
-        for row in f:
-            print(row)
+        for i, row in zip(range(len(f)), f):
+            dbg = [len(v) for v in row]
+            # print("{}: {}".format(i, dbg))
+            print("{}: {}".format(i, row))

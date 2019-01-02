@@ -9,21 +9,21 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ## 進行中 (優先待解, 還沒參透, 或想繼續鑽研的)
 
-\[   [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), 
+\[    
 
 ,
 
 [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  , , [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),   ,    ]
 
-## 目前已解 (41+1)
+## 目前已解 (42+1)
 
 ### Easy (19+1)
 
 \[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number,   [**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  **14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),    **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/),  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目
 
-### Medium (19)
+### Medium (20)
 
-\[[(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle,  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/),  **622**. Design Circular Queue, **338**. Counting Bits, [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
+\[[(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/),  [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle,  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/),  **622**. Design Circular Queue, **338**. Counting Bits, [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
 
 ### Hard (3)
 
@@ -806,7 +806,7 @@ class Solution:
 
 ##### [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/)
 
-這題是求最少硬幣種類組合, 所以可用279. Perfect Squares來解, 和518. Coin Change 2 不太一樣 (此題類39)
+**這題是求最少硬幣種類組合**, 所以可用279. Perfect Squares來解, 和518. Coin Change 2 不太一樣 (此題類39)
 
 - BFS解
   用279. Perfect Squares的概念來解, 但要注意set的成本, 不能放在while loop裡面, 可以在while裡用append, 不要每個loop都重新創set
@@ -815,7 +815,7 @@ class Solution:
 
 ##### [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/submissions/)
 
-這題是求所有組合法, 類似39. Combination Sum, 和279及322 不太一樣. DP解([參考教學](https://leetcode.com/problems/coin-change-2/discuss/200847/Python-easy-to-understand-dp-solution)), 方法是先將coin由小到大排序, coins\[0]就是第一種錢幣, coins\[1]就是前兩種錢幣 ... , f(i,j)就是coin set i可以換成錢j的方法數, 可被化約成兩種可能:
+**這題是求所有組合法**, 類似39. Combination Sum, 和279及322 不太一樣. 最常見是DP解([參考教學](https://leetcode.com/problems/coin-change-2/discuss/200847/Python-easy-to-understand-dp-solution)), 方法是先將coin由小到大排序, coins\[0]就是第一種錢幣, coins\[1]就是前兩種錢幣 ... , f(i,j)就是coin set i可以換成錢j的方法數, 可被化約成兩種可能:
 
 - 如果coins\[i]的最大幣值大於j, 則f(i,j) = f(i-1, j)
 
@@ -825,7 +825,22 @@ class Solution:
 
   f($2, $3 to $4), 最大幣值可以從目標量扣除, 變成答案的一部分, 所以相當於 f($2, $3 to $2) + f($2 to $4), 前者是就是同一排左邊的答案, 後者就是上排 (較小的那些幣值) 對同樣目標量的答案
 
-##### [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/)
+##### [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/)
+
+類似518 (將candidates想成coins), 建一張table, column 用amount為索引, row用values set為索引 , 範例如下:
+
+|           | 0    | 1    | 2       | 3       | 4         | 5         | 6                           | 7                |
+| --------- | ---- | ---- | ------- | ------- | --------- | --------- | --------------------------- | ---------------- |
+| [2]       | []   | None | [2]     | None    | [2,2]     | None      | [2,2,2]                     | None             |
+| [2,3]     | []   | None | [**2**] | [**3**] | [**2,2**] | [**2**,3] | [2,2,2]<br />[**3**,3]      | [**2,2**,3]      |
+| [2,3,6]   | []   | None | [2]     | [3]     | [2,2]     | [2,3]     | [2,2,2]<br />[3,3]<br />[6] | [2,2,3]          |
+| [2,3,6,7] | []   | None | [2]     | [3]     | [2,2]     | [2,3]     | [2,2,2]<br />[3,3]<br />[6] | [2,2,3]<br />[7] |
+
+第一欄和第一列可以直接填, 第一欄是amount = 0, 只有一種組合(不取value), 第一列則是因為只有一種value, 之後按照列填, 可以看到每格的答案都會包含上一列的組合(若有), 以及扣除最大幣值(若在範圍內)的組合, 填完表最右下的欄位就是答案
+
+
+
+##### [(H)N-Queens](https://leetcode.com/problems/n-queens/)
 
 Backtracking Algorithm ([參考教學 - 花花](https://youtu.be/Xa-yETqFNEQ), [參考教學 - Geeks](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/)), 可用遞迴的方式逐列執行, 我的感覺是有點像DFS, pseudo code如下, isSafe要檢查對角線可利用python的zip來達成, 或是用花花的對角線索引 (2n-1 = x + y or x - y + n -1):
 

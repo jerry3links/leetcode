@@ -17,11 +17,11 @@ def stringToIntegerList(input):
 
 
 def main():
-    from DifficultyMedium.solM039CombSum import Solution
-    candidates = [2,3,6,7]; target = 7
-    print("candidates: {}; target: {}".format(candidates, target))
-    ans = Solution().combinationSum(candidates, target)
-    print(ans)
+    from DifficultyMedium.solM008Str2Int import Solution
+    s = "42"
+    print(s)
+    ans = Solution().myAtoi(s)
+    print("ans: {}".format(ans))
 
 if __name__ == '__main__':
 
