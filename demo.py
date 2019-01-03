@@ -17,10 +17,15 @@ def stringToIntegerList(input):
 
 
 def main():
-    from DifficultyMedium.solM008Str2Int import Solution
-    s = "42"
+    from DifficultyHard.solH065ValidNumber import Solution
+    # s = "   0123e12.12e123"
+    # s = "-90e3"
+    # s = "0.1"
+    # s = "53.5e93"
+    # s = "  + "
+    s = "0e"
     print(s)
-    ans = Solution().myAtoi(s)
+    ans = Solution().isNumber(s)
     print("ans: {}".format(ans))
 
 if __name__ == '__main__':
