@@ -18,18 +18,46 @@ def stringToIntegerList(input):
 
 def main():
     from DifficultyHard.solH065ValidNumber import Solution
-    # s = "   0123e12.12e123"
+
     # s = "-90e3"
+    # s = "+23e-123.132132123"
+
+    # s = "23.123e132132123"
+    # print(s)
+    # ans = Solution().isNumber(s)
+    # print("ans: {}".format(ans))
+    #
+    # # s = "23.e132132123"
     # s = "0.1"
-    # s = "53.5e93"
-    # s = "  + "
-    s = "0e"
+    # print(s)
+    # ans = Solution().isNumber(s)
+    # print("ans: {}".format(ans))
+    #
+    # s = ".1"
+    # print(s)
+    # ans = Solution().isNumber(s)
+    # print("ans: {}".format(ans))
+    #
+    # s = "   0123e12.12e123"
+    # print(s)
+    # ans = Solution().isNumber(s)
+    # print("ans: {}".format(ans))
+
+    # s = "2e0"
+    s = ".0e"
+    s = "46.e3"
+    s = "32.e-80123"
     print(s)
     ans = Solution().isNumber(s)
     print("ans: {}".format(ans))
 
-if __name__ == '__main__':
+    # s = "53.5e93"
+    # s = "  + "
+    # s = "0.   "
+    # s = "  ."
+    # s = "  "
 
+if __name__ == '__main__':
     main()
 
 # lines = readlines()

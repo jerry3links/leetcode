@@ -15,7 +15,7 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 [**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  , , [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),   ,    ]
 
-## 目前已解 (43+1)
+## 目前已解 (44+1)
 
 ### Easy (19+1)
 
@@ -25,9 +25,9 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 \[[(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [(M)**8**. String to Integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/),   [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/),  [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle,  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/),  **622**. Design Circular Queue, **338**. Counting Bits, [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
 
-### Hard (3)
+### Hard (4)
 
-\[ [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/),   [**45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(很難, py不能用DP, 目前看GA有比之前看理解), [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), ]
+\[ [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/),   [**45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(很難, py不能用DP, 目前看GA有比之前看理解), [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), [(H)**65**. Valid Number](https://leetcode.com/problems/valid-number/submissions/),  ]
 
 
 ## Note
@@ -102,6 +102,9 @@ def strStr(self, haystack, needle):
 
 直觀解: 先取號(正或負), 在此之前遇到空白都跳過, 遇到正負號或第一個數值字元就取號, 一旦取號後, 遇到非數值字元 (含空白)就跳出, 數值處理完, 就乘上正負號再檢查是否溢位, 另外在迴圈中檢查溢位和迴圈後檢查效率沒有太大差別, 可能因為是 by 字元處理, 或條件判斷的語句沒有精簡會更費工, 不過大部份解法都差不多效率
 
+#### 1-9. [(H)**65**. Valid Number](https://leetcode.com/problems/valid-number/submissions/)
+
+這題很容易寫成太多if else, 所以得整理好規則, 再review一下
 
 #### [27. Remove Element | Easy](https://leetcode.com/problems/remove-element/submissions/)
 
