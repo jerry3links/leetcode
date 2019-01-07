@@ -104,7 +104,26 @@ def strStr(self, haystack, needle):
 
 #### 1-9. [(H)**65**. Valid Number](https://leetcode.com/problems/valid-number/submissions/)
 
-這題很容易寫成太多if else, 所以得整理好規則, 再review一下
+這題很容易寫成太多if else, 所以得整理好規則, 再review一下, char by char進行
+
+* 先檢查指數, 指數e後也可以有正負號, 但不可有小數點, 另外指數前要有digits
+* 再來檢查正負號, 如出現過指數, 正負號可以再出現一次 
+* 最後檢查小數點, 如果前面沒有指數才能存在小數點, 然後小數點後只能出現一次指數
+
+把Iinput s 當作list, s[i]去檢查每個字元:
+
+1. 有空白字元就往前進
+2. 檢查正負號
+3. 有數字就往前進, 並計數
+4. 檢查是否有指數, 有就檢查前面是否有數字
+    1. 檢查正負號
+    2. 有數字就往前進, 並計數
+5. 檢查是否有小數點
+    1. 有數字就往前進, 並計數
+    2. 類似4. 檢查指數
+    3. 有指數再檢查正負號
+    4. 有數字就往前進, 並計數
+6. 有空白字元就前進, 做到結尾檢查是否符合指數或小數點的規則就是有效
 
 #### [27. Remove Element | Easy](https://leetcode.com/problems/remove-element/submissions/)
 

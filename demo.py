@@ -19,43 +19,37 @@ def stringToIntegerList(input):
 def main():
     from DifficultyHard.solH065ValidNumber import Solution
 
-    # s = "-90e3"
-    # s = "+23e-123.132132123"
+    s_map = {
+                "-90e3": True
+                , "0": True
+                , "+23e-123.132132123": False
+                , "23.123e132132123": True
+                , "23.e132132123": True,
+                "0.1": True,
+                ".1": True
+                , "   0123e12.12e123": False
+                , "2e0": True
+                , ".0e": False
+                , "46.e3": True
+                , "32.e-80123": True
+                , "53.5e93": True
+                , "  + ": False
+                , "0.   ": True
+                , "   ": False
+    }
 
-    # s = "23.123e132132123"
-    # print(s)
-    # ans = Solution().isNumber(s)
-    # print("ans: {}".format(ans))
-    #
-    # # s = "23.e132132123"
-    # s = "0.1"
-    # print(s)
-    # ans = Solution().isNumber(s)
-    # print("ans: {}".format(ans))
-    #
-    # s = ".1"
-    # print(s)
-    # ans = Solution().isNumber(s)
-    # print("ans: {}".format(ans))
-    #
-    # s = "   0123e12.12e123"
-    # print(s)
-    # ans = Solution().isNumber(s)
-    # print("ans: {}".format(ans))
+    cnt = 0
+    for k in s_map:
+        try:
+            assert Solution().isNumber(k) == s_map[k]
+            # print("[{}]=>{}".format(k, Solution().isNumber(k)))
+            cnt += 1
+        except AssertionError:
+            print("[{}] should be {}, cnt: {}".format(k, s_map[k], cnt))
 
-    # s = "2e0"
-    s = ".0e"
-    s = "46.e3"
-    s = "32.e-80123"
-    print(s)
-    ans = Solution().isNumber(s)
-    print("ans: {}".format(ans))
+    if cnt == len(s_map):
+        print("All pass!")
 
-    # s = "53.5e93"
-    # s = "  + "
-    # s = "0.   "
-    # s = "  ."
-    # s = "  "
 
 if __name__ == '__main__':
     main()
