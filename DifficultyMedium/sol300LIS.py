@@ -15,7 +15,7 @@ class Solution(object):
         """
         if len(nums) <= 0:
             return 0
-        T = [1 for i in range(len(nums))]
+        T = [1 for _ in range(len(nums))]
         LIS = 0
         for i in range(len(nums)):
             for j in range(i):
