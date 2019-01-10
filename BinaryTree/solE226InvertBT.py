@@ -9,10 +9,10 @@
     from BinaryTree.solE226InvertBT import Solution
     root = Solution().constructCase()
     print("Original tree:")
-    Solution().printTree(root)
+    Solution.printTree(root)
     new_root = Solution().invertTree(root)
     print("Inverted tree:")
-    Solution().printTree(new_root)
+    Solution.printTree(new_root)
 """
 
 
@@ -41,30 +41,7 @@ class Solution(object):
         root.right.right = TreeNode(9)
         return root
 
-    def printTree(self, root):
-        depth = self.checkDepth(root, 0)
-        toCheck = [root]
-        node_list = []
-        while toCheck:
-            tmp = []
-            for x in toCheck:
-                if x is not None:
-                    node_list.append(x.val)
-                    tmp.append(x.left)
-                    tmp.append(x.right)
-            toCheck = tmp
-
-        for i in range(depth):
-            line = ""
-            for _ in range(2**i):
-                line += "".join([" " for _ in range((2 ** (depth - i)) - 1)])
-                line += str(node_list.pop(0))
-            print(line)
-
-    def checkDepth(self, node, level_from):
-
-        if node is None:
-            return level_from
-
-        return max(self.checkDepth(node.left, level_from+1),
-                   self.checkDepth(node.right, level_from+1))
+    @staticmethod
+    def printTree(root):
+        from customDataType import TreeNode
+        TreeNode.printTree(root)

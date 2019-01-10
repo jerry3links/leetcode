@@ -13,17 +13,17 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ,
 
-[**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  , , [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),   ,    ]
+ , , [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),   ,    ]
 
-## 目前已解 (47+1)
+## 目前已解 (50+1)
 
-### Easy (21+1)
+### Easy (22+1)
 
-\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number,   [**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  **14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),    **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/),  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,[(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),  [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目
+\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number,   [**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  **14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),    **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,    [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),    [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),  [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目
 
-### Medium (22)
+### Medium (24)
 
-\[ [(M)**3**. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/),     [(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [(M)**8**. String to Integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/),   [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/),  [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle,  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/), **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/),  **622**. Design Circular Queue, **338**. Counting Bits, [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
+\[ [(M)**3**. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/),     [(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [(M)**8**. String to Integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/),   [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/),  [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle, [(M)**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),  [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/),    **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/),  **622**. Design Circular Queue, **338**. Counting Bits, [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
 
 ### Hard (4)
 
@@ -147,7 +147,9 @@ class Solution:
 
 或是用索引去逼近, 也有機會達99%的faster, 不過這兩種寫法, 都有可能遇到16%的faster, 這可能是這題反讚數特高的原因, 個人猜測是test case或題型設計未展現鑑別度吧?
 
+#### [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/)
 
+(寫超過一小時) 第1個規則是k與nums的長度, 如果k > len(num), 就有可能不用rotate, 所以加上 `k = k % len(nums)` , k 如果等於nums的長度就不用作任何事, 第2個是將nums拆成 `head = nums[-k:]` 和`tail = nums[:len(nums)-k]`, 將head與tail接在一起就是rotate後的結果, 另外題目要求modify in place, 所以一個個copy
 
 ### Ch 2. Math
 
@@ -201,6 +203,27 @@ invert(root):
     return root
 ```
 對上例的初步理解是: 宣告tmp時, 會新分配一個instance來存放左邊分枝的內容, 之後就可以遞迴處理左和右, 相當於swap, 如果直接寫成`root.L, root.R = invert(root.R), invert(root.L)`也有相同作用
+
+#### [(M)**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
+
+第一次想用DFS解, 解不完, BFS比較可行, 參考的解是遇到leaf就將value加到sum中 (因為可以確定leaf是個位數), 若遇到leaf以外的node, 就將當前的value乘上10, 分別加到子點, 再push 到queue以進行下一輪BFS, pseudo code:
+
+```
+queue = [root]
+ans = 0
+while queue:
+	node = queue.pop(0)
+	if node.left == node.right is None: # leaf reached!
+		ans += node.val
+	if node.left:
+	    node.left.val += node.val * 10
+	    queue.append(node.left)
+    if node.right:
+	    node.right.val += node.val * 10
+	    queue.append(node.right)
+```
+
+
 
 
 #### [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
@@ -258,7 +281,8 @@ while True:
     if (--m == 0): break
 ```
 
-
+#### 6-37. [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/) 
+  規則是I -> (V, X), X -> (L, C), C -> (D, M), 所以遇到IXC三種就特別檢查下一個是否為可對應的tuple, 否則就照value map加上去即可, 用while loop比較好控制
 
 ### Ch 7. Stack
 #### [155. Min Stack]()
@@ -921,9 +945,11 @@ def solve(row, board, ans):
   return
 # 執行時用solve(0, 空棋盤, 空串列)
 ```
+##### [(E)182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)
 
-##### [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/) 
-  規則是I -> (V, X), X -> (L, C), C -> (D, M), 所以遇到IXC三種就特別檢查下一個是否為可對應的tuple, 否則就照value map加上去即可, 用while loop比較好控制
+這其實是SQL question, 利用GROUP BY和HAVING及COUNT來達成, 另外題目有指定只列email, 所以要選email不要用*
+`SELECT Email FROM Person GROUP BY Email HAVING COUNT(Email)>1;`	
+
 
 ### Reference
 
