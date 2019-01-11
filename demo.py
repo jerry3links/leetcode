@@ -18,13 +18,13 @@ def stringToIntegerList(string):
 
 def main():
 
-    from DifficultyEasy.solE189RotateArray import Solution
-    nums = [1,2,3,4,5,6,7]; k = 3
-    # nums = [-1,-100,3,99]; k = 2
-    nums = [1, 2]; k = 3
-    print("nums: {}, k = {}".format(nums, k))
-    Solution().rotate(nums, k)
-    print("ans: {}".format(nums))
+    from DifficultyEasy.solE459RepeatSubstr import Solution
+    s = "abab"
+    s = "abcabc"
+    # s = "aba"
+    print(s)
+    ans = Solution().repeatedSubstringPattern(s)
+    print("Repeated substr? {}".format(ans))
 
 
 

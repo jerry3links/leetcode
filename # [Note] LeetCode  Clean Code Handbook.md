@@ -13,13 +13,13 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ,
 
- , , [**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),   ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),   ,    ]
+ , ,    ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),   ,    ]
 
-## 目前已解 (50+1)
+## 目前已解 (51+1)
 
-### Easy (22+1)
+### Easy (23+1)
 
-\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number,   [**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  **14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),    **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,    [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),    [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),  [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/)    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目
+\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number,   [**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  **14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),    **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,    [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),    [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/), [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/),[(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目
 
 ### Medium (24)
 
@@ -150,6 +150,20 @@ class Solution:
 #### [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/)
 
 (寫超過一小時) 第1個規則是k與nums的長度, 如果k > len(num), 就有可能不用rotate, 所以加上 `k = k % len(nums)` , k 如果等於nums的長度就不用作任何事, 第2個是將nums拆成 `head = nums[-k:]` 和`tail = nums[:len(nums)-k]`, 將head與tail接在一起就是rotate後的結果, 另外題目要求modify in place, 所以一個個copy
+
+#### [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)
+
+蠻有趣的, 從頭開始寫, 執行時間從 6000ms -> 500ms -> 100ms -> 62ms, 基本概念是, 讓題目要求可以成立的substring (注意整個字串不算substring), 其長度一定是整個字串的因數 , 所以可以用2開始切字串, 從最長的substring開始檢查, 一旦符合就結束, 虛擬碼為:
+```
+	len_sub = int(len(s) / 2) # 若input長度為奇數, 無法整除一定會被跳過
+	while len_sub > 0: # 一直檢查到單個字元比較N次 (worst case)
+		if len(s) % len_sub != 0:
+			len_sub -= 1
+			continue
+		if s[:len_sub] * (len(s) / len_sub) == s:
+			return True
+		len_sub -= 1
+```
 
 ### Ch 2. Math
 
