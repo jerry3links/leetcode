@@ -13,17 +13,17 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ,
 
- , ,    ,   [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/)  , [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),   ,    ]
+ , ,    ,  ,    ,    ]
 
-## 目前已解 (51+1)
+## 目前已解 (53+1)
 
 ### Easy (23+1)
 
 \[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number,   [**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  **14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),    **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,    [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),    [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/), [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),    ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/),[(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目
 
-### Medium (24)
+### Medium (26)
 
-\[ [(M)**3**. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/),     [(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [(M)**8**. String to Integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/),   [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/),  [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle, [(M)**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),  [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/),    **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/),  **622**. Design Circular Queue, **338**. Counting Bits, [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
+\[ [(M)**3**. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/),     [(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [(M)**8**. String to Integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/),   [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/),  [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle, [(M)**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),  [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/),    **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/), **338**. Counting Bits,  [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),  [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),  **622**. Design Circular Queue,   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
 
 ### Hard (4)
 
@@ -164,6 +164,19 @@ class Solution:
 			return True
 		len_sub -= 1
 ```
+####  [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/)
+
+1. 先區分是v4或v6,
+2. for v4, 檢查leading zero和non-digit
+3. for v4, 檢查0~255
+4. for v6, 檢查leading zero和non-digit (hex)
+5. for v6, 檢查0~65535
+
+
+####  [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) 
+
+所有時間點換算成minutes都是不脫0~1439的值, 將各時點轉成序列成A序列, 排序後rotate (shift)成B序列, 其實就能快速形成一個所有時點的成對序列, 這比用`itertools.combinations(iterable, r)`快多了, 另外注意rotate後的B, 其最後一值要設成A[0] + 1440, 相當於過24H回頭一步做比較
+
 
 ### Ch 2. Math
 
