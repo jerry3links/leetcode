@@ -4,6 +4,14 @@ class ListNode:
         self.val = x
         self.next = None
 
+    @staticmethod
+    def printList(head):
+        node = head
+        line = ""
+        while node:
+            line += str(node.val) + " -> "
+            node = node.next
+        print(line)
 
 class TreeNode:
     def __init__(self, x = None):

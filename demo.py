@@ -18,12 +18,15 @@ def stringToIntegerList(string):
 
 def main():
 
-    from BinaryTree.solM863DistanceKinBT import Solution
-    root, target, K = Solution().constructCase()
-    # root, target, K = Solution().constructCase2()
-    Solution().printTree(root)
-    ans = Solution().distanceK(root,target,K)
-    print("ans: {}".format(ans))
+    from DifficultyEasy.solE021MergeSortedLists import Solution
+    l1, l2 = Solution().constructCase()
+    print("l1:")
+    Solution().printList(l1)
+    print("l2:")
+    Solution().printList(l2)
+    ans = Solution().mergeTwoLists(l1, l2)
+    print("ans:")
+    Solution().printList(ans)
 
 if __name__ == '__main__':
     main()
