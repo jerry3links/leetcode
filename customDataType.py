@@ -15,29 +15,43 @@ class TreeNode:
     def printTree(root):
 
         depth = TreeNode.checkDepth(root, 0)
-        cnt = 0
-        toCheck = [root]
+        toCheck = [(root, 0)]
         node_list = []
+        prv = 0
+        line = ""
         while toCheck:
-            tmp = []
-            for x in toCheck:
-                node_list.append(x)
-                if x:
-                    tmp.append(x.left)
-                    tmp.append(x.right)
-            cnt += 1
-            toCheck = tmp
+            node, lvl = toCheck.pop(0)
+            if lvl > prv:
+                # print("lvl {}".format(lvl))
+                print("{}".format(line))
+                line = ""
+            prv = lvl
+            # if node:
+            #     node_list.append((str(node.val), lvl))
+            # else:
+            #     node_list.append(('N', lvl))
+            if node:
+                line += "".join([" " for _ in range((2 ** (depth - lvl)) - 1)])
+                line += str(node.val)
+                toCheck.append((node.left, lvl + 1))
+                toCheck.append((node.right, lvl + 1))
 
-        cnt = 0
-        for i in range(depth):
-            line = ""
-            for j in range(2**i):
-                val = str(node_list[cnt].val) if node_list[cnt] else 'N'
-                cnt += 1
-                line += "".join([" " for _ in range((2 ** (depth - i)) - 1)])
-                line += val
 
-            print(line)
+        # cnt = 0
+        # for i in range(depth):
+        #     line = ""
+        #     for j in range(2**i):
+        #         # val = str(node_list[cnt].val) if node_list[cnt] else 'N'
+        #         # val = str(cnt)
+        #         # val = node_list[cnt]
+        #         # cnt += 1
+        #         if node_list[0][1] > i:
+        #             break
+        #         val, lvl = node_list.pop(0)
+        #         line += "".join([" " for _ in range((2 ** (depth - i)) - 1)])
+        #         line += "{}".format(val)
+        #
+        #     print(line)
 
     @staticmethod
     def checkDepth(node, level_from):

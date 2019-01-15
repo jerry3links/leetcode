@@ -46,9 +46,7 @@ class Solution(object):
                     digits = list(v)
                     while digits:
                         c = digits.pop(0)
-                        if not c.isdigit():
-                            return "Neither"
-                        if c == '0':
+                        if not c.isdigit() or c == '0':
                             return "Neither"
                 elif len(v) <= 1:
                     if not v.isdigit():
@@ -63,9 +61,7 @@ class Solution(object):
             if len(elements) != 8:
                 return "Neither"
             for v in elements:
-                if len(v) > 4:
-                    return "Neither"
-                elif len(v) == 0:
+                if len(v) > 4 or len(v) == 0:
                     return "Neither"
                 digits = list(v)
                 while digits:
