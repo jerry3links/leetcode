@@ -18,15 +18,11 @@ def stringToIntegerList(string):
 
 def main():
 
-    from DifficultyEasy.solE021MergeSortedLists import Solution
-    l1, l2 = Solution().constructCase()
-    print("l1:")
-    Solution().printList(l1)
-    print("l2:")
-    Solution().printList(l2)
-    ans = Solution().mergeTwoLists(l1, l2)
-    print("ans:")
-    Solution().printList(ans)
+    from DifficultyHard.solH128LongestConSeq import Solution
+    nums = [100,4,200,1,3,2]
+    print("nums: {}".format(nums))
+    ans = Solution().longestConsecutive(nums)
+    print("ans: {}".format(ans))
 
 if __name__ == '__main__':
     main()
