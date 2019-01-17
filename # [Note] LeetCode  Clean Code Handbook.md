@@ -15,7 +15,7 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
  , ,    ,  ,    ,    ]
 
-## 目前已解 (58+1)
+## 目前已解 (59+1)
 
 ### Easy (27+1)
 
@@ -25,9 +25,9 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 \[ [(M)**3**. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/),     [(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [(M)**8**. String to Integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/),   [**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/), [**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/),  [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  **98**. Validate BST, **103**. Binary Tree Zigzag Level Order Traversal, [**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), **120**. Triangle, [(M)**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),  [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/),   [**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/),    **200**. Number of Islands, **279**. Perfect Squares, [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/), **338**. Counting Bits,  [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),  [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),  [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) ,  **622**. Design Circular Queue,   [**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [(M)**863**. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) , [**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
 
-### Hard (4)
+### Hard (5)
 
-\[ [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/),   [**45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(很難, py不能用DP, 目前看GA有比之前看理解), [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), [(H)**65**. Valid Number](https://leetcode.com/problems/valid-number/submissions/),  ]
+\[ [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/),   [**45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(很難, py不能用DP, 目前看GA有比之前看理解), [(H)**128**. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/submissions/),   [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), [(H)**65**. Valid Number](https://leetcode.com/problems/valid-number/submissions/),  ]
 
 
 ## Note
@@ -460,6 +460,16 @@ def isValidBST(self, root):
 O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的量增加, 花費時間 或 花費記憶體 會如何增長
 
 #### 其它各題解法雜記
+
+#####  [(H)**128**. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/submissions/)
+
+初次解的策略:
+1. 先sort
+2. 先用i依序trace每個value, 將符合的放到basket裡
+3. 一旦遇到不連續的值, 就另開一個temp basket, 用j從i開始放, 如果這個temp basket的大小超過原本basket, 就更新basket和i
+4. 如果temp basket沒有更大, 就從最近一次的j開始繼續往後做
+5. 如果i + basket的大小超過nums的範圍, 或走到最後一個字元就可以結束
+
 
 ##### [322\. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/submissions/)
 可以用list, pop作為dequeue, 或用索引0和-1來dequeue, 第一版的解法感覺沒有circular(或ring)的概念在內, 下面是有head和tail的索引寫法, tail用shift之後就有ring的感覺
