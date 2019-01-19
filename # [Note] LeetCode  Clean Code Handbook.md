@@ -17,9 +17,9 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ## 目前已解 (59+1)
 
-### Easy (27+1)
+### Easy (28+1)
 
-\[ **1**. Two Sum, **7**. Reverse Integer, **9**. Palindrome Number,   [**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  **14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),   [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/),  **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/),  [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),   [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)   [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),   [(E)**263**. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/) ,   [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),       [(E)**680**. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)   ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/),[(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目, 182是SQL題目
+\[ **1**. Two Sum,   [(E)**2**. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/),  **7**. Reverse Integer, **9**. Palindrome Number,   [**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  **14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),   [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/),  **27**. Remove Element, **108**. Convert Sorted Array to Binary Search Tree,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),    [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/),  [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),   [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)   [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),   [(E)**263**. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/) ,   [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),       [(E)**680**. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)   ,   **700**. Search In a Binary Search Tree, [**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/),[(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目, 182是SQL題目
 
 ### Medium (27)
 
@@ -236,10 +236,18 @@ Python 用set或用dict都可以, 注意題目要求的回傳形式, 然後也�
 
 概念是不要去更動next, 只去更新node的value, 上解不將if結合成一個的理由是這樣設計的前提是input list一定要有兩個node, 若node只有一個, previous就不會有內容, 這個方法的時間複雜度是O(n)
 
-####  [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/)
+####  3-20. [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/)
+
+題目是混兩個排序的linked list
 
 Note: python的用新的變數儲存已有的instance, 會重新分配一個instance
 例如 `track.next = node1`這會新建一個instance放在next中, 和node1放的是不一樣的instance, 另外`track.next = node1 or node2`有看到這種更簡短的寫法
+
+#### 3-21. [(E)**2**. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+
+題號很前面, 目前算是簡單的題目, 這題和上題都有dummy head的概念應用
+
+
 
 #### [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)
 

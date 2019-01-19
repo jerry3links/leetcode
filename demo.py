@@ -17,15 +17,12 @@ def stringToIntegerList(string):
 
 
 def main():
-
-    from LinkedList.solM002AddTwoNums import Solution
-    l1, l2 = Solution().testCase()
-    print("l1:")
-    Solution().printList(l1)
-    print("l2:")
-    Solution().printList(l2)
-    ans = Solution().addTwoNumbers(l1,l2)
-    print("ans:")
+    from LinkedList.solM024SwapNodes import Solution
+    head = Solution().testCase()
+    print("List:")
+    Solution().printList(head)
+    ans = Solution().swapPairs(None)
+    print("ans: ")
     Solution().printList(ans)
 
 if __name__ == '__main__':

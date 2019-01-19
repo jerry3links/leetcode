@@ -40,28 +40,29 @@ class Solution(object):
             if l2:
                 s += l2.val
                 l2 = l2.next
-            track.val = s % 10 + overflow
-            overflow = int(s / 10)
 
+            s += overflow
+            track.val = s % 10
+            overflow = int(s / 10)
+            # print("s: {}, val: {}, ov: {}".format(s, track.val, overflow))
             if l1 or l2:
                 track.next = ListNode(0)
                 track = track.next
 
-        # if l1 is None and l2 is None:
-        #     track.val += overflow
-
-
+        if l1 is None and l2 is None:
+            if overflow > 0:
+                track.next = ListNode(overflow)
 
         return head
 
 
     def testCase(self):
-        head1 = ListNode(5)
+        head1 = ListNode(1)
         # head1.next = ListNode(4)
         # head1.next.next = ListNode(3)
 
-        head2 = ListNode(5)
-        # head2.next = ListNode(6)
+        head2 = ListNode(9)
+        head2.next = ListNode(9)
         # head2.next.next = ListNode(4)
 
         return head1, head2
