@@ -20,15 +20,33 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
+        if head is None:
+            return head
+
+        cnt = 0
+
         track = head
+        new_head = track
+        while track:
+            previous = track
+            track = track.next
+            if track:
+                print("{} and {}".format(previous.val, track.val))
+            else:
+                print("{} and {}".format(previous.val, None))
+            cnt += 1
+
+        return new_head.next
+
+
 
 
 
     def testCase(self):
         head = ListNode(1)
         head.next = ListNode(2)
-        head.next.next = ListNode(3)
-        head.next.next.next = ListNode(4)
+        # head.next.next = ListNode(3)
+        # head.next.next.next = ListNode(4)
         return head
 
     def printList(self, head):

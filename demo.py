@@ -21,7 +21,7 @@ def main():
     head = Solution().testCase()
     print("List:")
     Solution().printList(head)
-    ans = Solution().swapPairs(None)
+    ans = Solution().swapPairs(head)
     print("ans: ")
     Solution().printList(ans)
 
