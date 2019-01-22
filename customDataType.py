@@ -40,9 +40,9 @@ class TreeNode:
             line = ""
             for j in range(2**i):
                 idx = 2**i + j - 1
-                val = 'N' if node_list[idx] == -1 else str(node_list[idx])
-                line += "".join([" " for _ in range((2 ** (depth - i)) - 1)])
-                line += val #"{:02d}".format(idx)
+                val = ' N' if node_list[idx] == -1 else "{:2d}".format(node_list[idx])
+                line += "".join(["  " for _ in range((2 ** (depth - i)) - 1)])
+                line += val
 
             print(line)
 

@@ -17,13 +17,12 @@ def stringToIntegerList(string):
 
 
 def main():
-    from LinkedList.solM024SwapNodes import Solution
-    head = Solution().testCase()
-    print("List:")
-    Solution().printList(head)
-    ans = Solution().swapPairs(head)
-    print("ans: ")
-    Solution().printList(ans)
+    from BinaryTree.solE111MinDepthOfBT import Solution
+    root = Solution().testCase()
+    print("Tree:")
+    Solution().printTree(root)
+    ans = Solution().minDepth(root)
+    print("ans: {}".format(ans))
 
 if __name__ == '__main__':
     main()
