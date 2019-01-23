@@ -17,11 +17,11 @@ def stringToIntegerList(string):
 
 
 def main():
-    from BinaryTree.solE111MinDepthOfBT import Solution
+    from BinaryTree.solE110BalancedBT import Solution
     root = Solution().testCase()
     print("Tree:")
     Solution().printTree(root)
-    ans = Solution().minDepth(root)
+    ans = Solution().isBalanced(root)
     print("ans: {}".format(ans))
 
 if __name__ == '__main__':

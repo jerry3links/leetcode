@@ -15,11 +15,11 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
  , ,    ,  ,    ,    ]
 
-## 目前已解 (62+1)
+## 目前已解 (64+1)
 
-### Easy (28+1)
+### Easy (30+1)
 
-\[ (E)**1**. Two Sum,     (E)**7**. Reverse Integer, (E)**9**. Palindrome Number,   [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  (E)**14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),   [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/),  (E)**27**. Remove Element,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),  [(E)**104**. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), (E)**108**. Convert Sorted Array to Binary Search Tree, ,  [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/),  [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),   [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)   [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),   [(E)**263**. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/) ,   [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),       [(E)**680**. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)   ,   (E)**700**. Search In a Binary Search Tree, [(E)**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [(E)**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [(E)**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目, 182是SQL題目
+\[ (E)**1**. Two Sum,     (E)**7**. Reverse Integer, (E)**9**. Palindrome Number,   [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  (E)**14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),   [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/),  (E)**27**. Remove Element,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),  [(E)**104**. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), (E)**108**. Convert Sorted Array to Binary Search Tree,  [(E)**110**. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) ,  [(E)**111**. Minimum Depth of inary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  ,  [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/),  [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),   [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)   [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),   [(E)**263**. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/) ,   [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),       [(E)**680**. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)   ,   (E)**700**. Search In a Binary Search Tree, [(E)**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [(E)**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [(E)**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目, 182是SQL題目
 
 ### Medium (29)
 
@@ -312,6 +312,55 @@ minDepth(root):
 ```
 
 另一種解是BFS, 如此遇到highly unbalanced tree就不用全跑, 但若遇到full binary tree就仍會全跑, 變成time: O(n), space: O(n)
+
+#### 4-28. [(E)110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 53ms, 49%
+
+Balanced Binary Tree的定義是空樹或任一node的兩子樹高度差小於等於1, 所以可以recursively解, 遞迴時加上maxDepth算diff判斷
+
+```python
+isBalanced(root):
+	if !root: return True
+	if depth(root.L)-depth(root.R) <= 1 && isBalanced(root.L) && isBalanced(root.R):
+		return True
+	else:
+		return False
+```
+
+但上面這個方法runtime是O(n2)的top-down, runtime為O(n)的bottom-up 解為 (40ms, 99%):
+
+```python
+isBal(root):
+	if maxDepth(root) != -1:
+		return True
+	return False
+
+maxDepth(root):
+	if root is None:
+		return 0
+	if maxDepth(root.L) == -1: return -1
+	if maxDepth(root.R) == -1: return -1
+	
+	diff = abs(maxDepth(root.L) - maxDepth(root.R))
+	
+	if diff > 1: return -1
+	
+	return max(maxDepth(root.L), maxDepth(root.R)) + 1	
+	
+```
+
+上面是用sub maxDepth來完成, 注意空樹也是樹, 其高度為0, 另外就是有signal (-1), 只要左子樹和右子樹高度大於1就設為-1, 這樣只要其中一棵為-1就不是balanced, 不用做另外一棵, 例如下例的B就不是平衡樹, bottom up到B時, 就不會執行maxDepth(C)
+
+```
+       A
+     / |
+    B  C
+   / 
+  D
+ / 
+E
+```
+
+
 
 #### [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 

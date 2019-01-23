@@ -31,7 +31,6 @@ class Solution(object):
                    self.minDepth(root.right)) + 1
 
 
-
     def testCase(self):
         root = TreeNode(3)
         root.left = TreeNode(9)
@@ -39,6 +38,7 @@ class Solution(object):
         root.right.left = TreeNode(15)
         root.right.right = TreeNode(7)
         return root
+
 
     def printTree(self, root):
         from customDataType import TreeNode
