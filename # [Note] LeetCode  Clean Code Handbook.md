@@ -426,6 +426,8 @@ class Solution:
 
 #### [(M)**863**. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
 
+題目: 給定一個BT, 一個node N和integer K, 回傳所有BT上距離N為K的node
+
 策略: 先用DFS建立neighbors map, 將所有邊記錄成list (雙向的, 所以一個邊都會碰到兩次), 之後以target為起點, 用BFS去走訪這個neighbors map, 走到距離K就將點放到basket裡, 超過K就不再進行下去, 回傳basket就是答案, 另外要注意corner case, 例如K = 0, 這種情況就回傳target即可
 
 

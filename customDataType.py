@@ -26,7 +26,7 @@ class TreeNode:
             return
 
         depth = TreeNode.checkDepth(root, 0)
-        node_list = [-1 for _ in range(2**depth-1)]
+        node_list = [None for _ in range(2**depth-1)]
         toCheck = [(root, 0)]
         while toCheck:
             node, parent_idx = toCheck.pop(0)
@@ -40,7 +40,7 @@ class TreeNode:
             line = ""
             for j in range(2**i):
                 idx = 2**i + j - 1
-                val = ' N' if node_list[idx] == -1 \
+                val = ' N' if node_list[idx] == None \
                     else "{:2d}".format(node_list[idx]) # 02d
                 line += "".join(["  " for _ in range((2 ** (depth - i)) - 1)])
                 line += val
