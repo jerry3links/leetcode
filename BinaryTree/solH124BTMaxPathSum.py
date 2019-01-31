@@ -20,41 +20,54 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
-        neighbors = {}
-        self.DFS(root, neighbors)
-        ans = max()
+        tree = self.bfs(root)
+        print(tree)
+        targets = [i for i in range(len(tree)) if tree[i] is not None]
+        print(targets)
 
-    def pathSum(self, v, neighbors):
-        return
-        # toCheck = [v]
-        # while
-
-
+        # for idx in targets:
+        a = self.pathSum(2, tree, targets)
+        print(a)
 
 
-    def DFS(self, root, neighbors = {}):
+    def pathSum(self, i, tree, targets):
+        toCheck = [(i, tree[i])]
+        while toCheck:
+            t, v = toCheck.pop(0)
+            p = (t - 2) / 2 if t % 2 == 0 else (t - 1) / 2
+            if p in targets:
+                toCheck.append((p, tree[p]))
+            l = 2 * t + 1
+            if l in targets:
+                toCheck.append((l, tree[l]))
+            r = 2 * t + 2
+            if r in targets:
+                toCheck.append((r, tree[r]))
+
+
+
+            # node_list[parent_idx] = node.val
+            # toCheck.append(t)
+            # toCheck.append(t)
+
+
+    def bfs(self, root):
+        depth = self.maxDepth(root, 0)
+        node_list = [None for _ in range(2**depth-1)]
+        toCheck = [(root, 0)]
+        while toCheck:
+            node, parent_idx = toCheck.pop(0)
+            if node:
+                node_list[parent_idx] = node.val
+                toCheck.append((node.left, 2 * parent_idx + 1))
+                toCheck.append((node.right, 2 * parent_idx + 2))
+        return node_list
+
+    def maxDepth(self, root, cnt = 0):
         if root is None:
-            return
-        node_l = root.left
-        node_r = root.right
-        if node_l:
-            if root.val in neighbors:
-                neighbors[root.val].append(node_l.val)
-            else:
-                neighbors[root.val] = [node_l.val]
-            neighbors[node_l.val] = [root.val]
-        if node_r:
-            if root.val in neighbors:
-                neighbors[root.val].append(node_r.val)
-            else:
-                neighbors[root.val] = [node_r.val]
-            neighbors[node_r.val] = [root.val]
-
-        self.DFS(root.left, neighbors)
-        self.DFS(root.right, neighbors)
-
-
-
+            return cnt
+        return max(self.maxDepth(root.left, cnt),
+                   self.maxDepth(root.right, cnt)) + 1
 
     def testCase(self):
         root = TreeNode(1)
@@ -81,9 +94,10 @@ class Solution(object):
     def testCase4(self):
         root = TreeNode(-5)
         root.left = TreeNode(2)
-        root.left.left = TreeNode(-1)
-        root.left.right = TreeNode(4)
+
         root.right = TreeNode(3)
+        root.right.left = TreeNode(-1)
+        root.right.right = TreeNode(4)
         return root
 
 
