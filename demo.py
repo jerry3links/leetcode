@@ -17,11 +17,11 @@ def stringToIntegerList(string):
 
 
 def main():
-    from BinaryTree.solH124BTMaxPathSum import Solution
-    root = Solution().testCase4()
-    print("Tree:")
+    from BinaryTree.solE112PathSum import Solution
+    root, sum = Solution().testCase()
+    print("Tree (sum: {}): ".format(sum))
     Solution().printTree(root)
-    ans = Solution().maxPathSum(root)
+    ans = Solution().hasPathSum(root, sum)
     print("ans: {}".format(ans))
 
 if __name__ == '__main__':

@@ -20,35 +20,53 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
+        # root wont be none
+        self.val_max = root.val
+        self.helper(root)
+        return self.val_max
+
+    def helper(self, root):
+        if root is None:
+            return 0
+        val_l = max(self.helper(root.left), 0)
+        val_r = max(self.helper(root.right), 0)
+        self.val_max = max(self.val_max, root.val + val_l + val_r)
+        return max(root.val + val_l, root.val + val_r)
+
+
+    # got MLE (mem. limit exceeded)
+    def firstImpl(self, root):
         tree = self.bfs(root)
-        print(tree)
         targets = [i for i in range(len(tree)) if tree[i] is not None]
-        print(targets)
+        val_max = float("-inf")
+        for idx in targets:
+            val_max = max(val_max, self.pathSum(idx, tree))
+        # a = max([self.pathSum(idx, tree) for idx in targets])
+        return val_max
 
-        # for idx in targets:
-        a = self.pathSum(2, tree, targets)
-        print(a)
 
-
-    def pathSum(self, i, tree, targets):
+    def pathSum(self, i, tree):
         toCheck = [(i, tree[i])]
+        val_max = tree[i]
+        visited = set()
+
         while toCheck:
-            t, v = toCheck.pop(0)
-            p = (t - 2) / 2 if t % 2 == 0 else (t - 1) / 2
-            if p in targets:
-                toCheck.append((p, tree[p]))
-            l = 2 * t + 1
-            if l in targets:
-                toCheck.append((l, tree[l]))
-            r = 2 * t + 2
-            if r in targets:
-                toCheck.append((r, tree[r]))
+            q, v = toCheck.pop(0)
+            p = (q - 2) / 2 if q % 2 == 0 else (q - 1) / 2
 
-
-
-            # node_list[parent_idx] = node.val
-            # toCheck.append(t)
-            # toCheck.append(t)
+            if p >= 0 and tree[p] is not None and p not in visited:
+                val_max = max(val_max, v + tree[p])
+                toCheck.append((p, v + tree[p]))
+            l = 2 * q + 1
+            if l < len(tree) and tree[l] is not None and l not in visited:
+                val_max = max(val_max, v + tree[l])
+                toCheck.append((l, v + tree[l]))
+            r = 2 * q + 2
+            if r < len(tree) and tree[r] is not None and r not in visited:
+                val_max = max(val_max, v + tree[r])
+                toCheck.append((r, v + tree[r]))
+            visited.add(q)
+        return val_max
 
 
     def bfs(self, root):
