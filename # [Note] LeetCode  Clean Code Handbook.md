@@ -15,19 +15,19 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
  , ,    ,  ,    ,    ]
 
-## 目前已解 (64+1)
+## 目前已解 (66+1)
 
-### Easy (30+1)
+### Easy (31+1)
 
-\[ (E)**1**. Two Sum,     (E)**7**. Reverse Integer, (E)**9**. Palindrome Number,   [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  (E)**14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),   [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/),  (E)**27**. Remove Element,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),  [(E)**104**. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), (E)**108**. Convert Sorted Array to Binary Search Tree,  [(E)**110**. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) ,  [(E)**111**. Minimum Depth of inary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  ,  [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/),  [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),   [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)   [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),   [(E)**263**. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/) ,   [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),       [(E)**680**. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)   ,   (E)**700**. Search In a Binary Search Tree, [(E)**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [(E)**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [(E)**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目, 182是SQL題目
+\[ (E)**1**. Two Sum,     (E)**7**. Reverse Integer, (E)**9**. Palindrome Number,   [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  (E)**14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),   [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/),  (E)**27**. Remove Element,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),  [(E)**104**. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), (E)**108**. Convert Sorted Array to Binary Search Tree,  [(E)**110**. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) ,  [(E)**111**. Minimum Depth of inary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  ,    [(E)**112**. Path Sum](https://leetcode.com/problems/path-sum/submissions/),     [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/),  [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),   [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)   [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),   [(E)**263**. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/) ,   [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),       [(E)**680**. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)   ,   (E)**700**. Search In a Binary Search Tree, [(E)**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [(E)**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [(E)**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目, 182是SQL題目
 
 ### Medium (29)
 
 \[ [(M)**2**. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/),   [(M)**3**. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/),     [(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [(M)**8**. String to Integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/),   [(M)**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/),  [(M)**24**. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) , [(M)**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/),  [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  (M)**98**. Validate BST, (M)**103**. Binary Tree Zigzag Level Order Traversal, (M)[**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), (M)**120**. Triangle, [(M)**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [(M)**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),  [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/),   [(M)**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/),    (M)**200**. Number of Islands, (M)**279**. Perfect Squares, [(M)**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/), (M)**338**. Counting Bits,  [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),  [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),  [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) ,  (M)**622**. Design Circular Queue,   [(M)**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [(M)**863**. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) , [(M)**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
 
-### Hard (5)
+### Hard (6)
 
-\[ [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/),   [**45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(很難, py不能用DP, 目前看GA有比之前看理解), [(H)**128**. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/submissions/),   [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), [(H)**65**. Valid Number](https://leetcode.com/problems/valid-number/submissions/),  ]
+\[ [(H)**41**. n-queens](https://leetcode.com/problems/n-queens/),   [**45**. Jump Game II](https://leetcode.com/problems/jump-game-ii/)(很難, py不能用DP, 目前看GA有比之前看理解), [(H)**65**. Valid Number](https://leetcode.com/problems/valid-number/submissions/),   [(H)**124**. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/),   [(H)**128**. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/submissions/),   [**224**. Basic Calculator](https://leetcode.com/problems/basic-calculator/), ,  ]
 
 
 ## Note
@@ -397,7 +397,7 @@ while queue:
 
 
 
-#### [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+#### 4-29. [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 <details><summary>Solution</summary><p>
 
 ```python=
@@ -420,9 +420,48 @@ class Solution:
 
 </p></details>
 
-#### [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/submissions/)
+#### 4-30. [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/submissions/)
 
 暴力解, 將linked list轉換成array, 取中間點當root,再把剩下的array切開轉成兩個linked list, recursively進行下去 
+
+#### 4-31. [(H)**124**. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+
+題目: 給定BT, 找出Tree中所有可能path能構成的最大值,
+
+初次解: 轉成graph來尋找, 所有點都當起點來跑一次, 回傳的最大值就是答案, 基本上正確, 但這麼做會遇到MLE
+
+Bottom-up 解:
+用遞迴函式, 到None時回傳0, 遇到leaf時則回傳leaf的val, 遇到分支時, 分別記下左右跟0比較後的值, 並用global record記錄此時的最大值, 如此各分支都走完就是答案
+
+```python
+def maxPathSum(self, root):
+	self.valMax = root.val
+	self.helper(root)
+	return self.valMax
+
+def helper(self, root):
+	if not root:
+		return 0
+	vl = max(helper(root.left), 0)
+	vr = max(helper(root.right), 0)
+	self.valMax = max(self.valMax, root.val + vl + vr)
+	return max(root.val + vl, root.val + vr)
+```
+
+用0的意義是不要選擇這條path, 因為一旦sum為負值, 基本上就是不用考慮這個分支, 除非sum大於0, 那代表之後還有機會變得更大.
+
+整理如下:
+
+對一個node來說,  最大值可能為
+
+1. node.val
+2. node.val + 左子樹的最大值
+3. node.val + 右子樹的最大值
+4. node.val + 左子樹的最大值 + 右子樹的最大值
+
+如果node是root, 那最大值還有一個可能是不含root的左右子樹其一
+
+
 
 #### [(M)**863**. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
 
@@ -430,7 +469,26 @@ class Solution:
 
 策略: 先用DFS建立neighbors map, 將所有邊記錄成list (雙向的, 所以一個邊都會碰到兩次), 之後以target為起點, 用BFS去走訪這個neighbors map, 走到距離K就將點放到basket裡, 超過K就不再進行下去, 回傳basket就是答案, 另外要注意corner case, 例如K = 0, 這種情況就回傳target即可
 
+#### [(E)**112**. Path Sum](https://leetcode.com/problems/path-sum/submissions/)
 
+題目: 給BT和sum, 回傳BT上是否存在一條root到leaf的path, 其和為sum
+
+初次解策略: BFS解, 用tuple儲存node和remain value, 從root開始對remain value減去node value, 減到0就是True, 否則全部都拜訪完仍沒有0就是False, 注意BT裡會有負值出現, 所以不能用小於0檢查提前結束
+
+遞迴解: 
+
+```python
+class Solution:
+    def hasPathSum(self, root, sum):  
+		if not root:
+            return False
+        if not root.left and not root.right:
+            return sum == root.val
+
+        return self.hasPathSum(root.left, sum-root.val) or self.hasPathSum(root.right, sum-root.val)
+```
+
+兩種方式都可以跑86% (36ms)
 
 ### Ch 5. Bit Manipulation
 
