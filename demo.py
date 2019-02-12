@@ -17,12 +17,13 @@ def stringToIntegerList(string):
 
 
 def main():
-    from BinaryTree.solE112PathSum import Solution
-    root, sum = Solution().testCase()
-    print("Tree (sum: {}): ".format(sum))
-    Solution().printTree(root)
-    ans = Solution().hasPathSum(root, sum)
-    print("ans: {}".format(ans))
+    from BitManipulation.solM137SingleNumII import Solution
+    nums = [2,2,3,2]
+    nums = [0,1,0,1,0,1,99]
+    nums = [-2, -2, 1, 1, -3, 1, -3, -3, -4, -2]
+    print("nums: {}".format(nums))
+    ans = Solution().singleNumber(nums)
+    print("ans = {}".format(ans))
 
 if __name__ == '__main__':
     main()

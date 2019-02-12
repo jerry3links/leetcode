@@ -9,17 +9,17 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ## 進行中 (優先待解, 還沒參透, 或想繼續鑽研的)
 
-\[    
+\[    [(M)**137**. Single Number II](https://leetcode.com/problems/single-number-ii/)
 
 , 
 
  , ,    ,  ,    ,    ]
 
-## 目前已解 (66+1)
+## 目前已解 (67+1)
 
-### Easy (31+1)
+### Easy (32+1)
 
-\[ (E)**1**. Two Sum,     (E)**7**. Reverse Integer, (E)**9**. Palindrome Number,   [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  (E)**14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),   [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/),  (E)**27**. Remove Element,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),  [(E)**104**. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), (E)**108**. Convert Sorted Array to Binary Search Tree,  [(E)**110**. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) ,  [(E)**111**. Minimum Depth of inary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  ,    [(E)**112**. Path Sum](https://leetcode.com/problems/path-sum/submissions/),     [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/),  [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),   [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)   [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),   [(E)**263**. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/) ,   [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),       [(E)**680**. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)   ,   (E)**700**. Search In a Binary Search Tree, [(E)**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [(E)**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [(E)**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目, 182是SQL題目
+\[ (E)**1**. Two Sum,     (E)**7**. Reverse Integer, (E)**9**. Palindrome Number,   [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  (E)**14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),   [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/),  (E)**27**. Remove Element,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),  [(E)**104**. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), (E)**108**. Convert Sorted Array to Binary Search Tree,  [(E)**110**. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) ,  [(E)**111**. Minimum Depth of inary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  ,    [(E)**112**. Path Sum](https://leetcode.com/problems/path-sum/submissions/),     [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  [(E)**136**. Single Number](https://leetcode.com/problems/single-number/submissions/),  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/),  [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),   [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)   [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),   [(E)**263**. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/) ,   [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),       [(E)**680**. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)   ,   (E)**700**. Search In a Binary Search Tree, [(E)**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [(E)**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [(E)**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目, 182是SQL題目
 
 ### Medium (29)
 
@@ -492,7 +492,23 @@ class Solution:
 
 ### Ch 5. Bit Manipulation
 
-除以2, 餘數就會是LSB, 重複對商做, 直到無法除
+Tips: 除以2, 餘數就會是LSB, 重複對商做, 直到無法除
+
+#### 5-33. [(E)**136**. Single Number](https://leetcode.com/problems/single-number/submissions/)
+
+題目: 給定一組不為空的數列, 找出只出現一次的數 (其餘都會出現兩次)
+
+First Time & Second Time (using map):
+Runtime: 28 ms, faster than 71.43% of Python online submissions for Single Number.
+Memory Usage: 12.8 MB, less than 0.98% of Python online submissions for Single Number.
+
+XOR Solution (time: 99%, space: 7.6 %):
+
+利用XOR的特性 (自己跟自己XOR會是0, 並且commutatve和associative, 意即順序不影響最終結果) 
+
+#### 5-34. [(M)**137**. Single Number II](https://leetcode.com/problems/single-number-ii/)
+
+題目: 找出數列中, 唯一沒有出現三次的數
 
 
 ### Ch 6. Misc
