@@ -9,21 +9,21 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 ## 進行中 (優先待解, 還沒參透, 或想繼續鑽研的)
 
-\[    [(M)**137**. Single Number II](https://leetcode.com/problems/single-number-ii/)
+\[   
 
 , 
 
  , ,    ,  ,    ,    ]
 
-## 目前已解 (67+1)
+## 目前已解 (68+1)
 
 ### Easy (32+1)
 
 \[ (E)**1**. Two Sum,     (E)**7**. Reverse Integer, (E)**9**. Palindrome Number,   [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  (E)**14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),   [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/),  (E)**27**. Remove Element,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),  [(E)**104**. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), (E)**108**. Convert Sorted Array to Binary Search Tree,  [(E)**110**. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) ,  [(E)**111**. Minimum Depth of inary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  ,    [(E)**112**. Path Sum](https://leetcode.com/problems/path-sum/submissions/),     [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  [(E)**136**. Single Number](https://leetcode.com/problems/single-number/submissions/),  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/),  [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),   [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)   [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),   [(E)**263**. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/) ,   [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),       [(E)**680**. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)   ,   (E)**700**. Search In a Binary Search Tree, [(E)**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [(E)**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [(E)**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目, 182是SQL題目
 
-### Medium (29)
+### Medium (30)
 
-\[ [(M)**2**. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/),   [(M)**3**. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/),     [(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [(M)**8**. String to Integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/),   [(M)**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/),  [(M)**24**. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) , [(M)**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/),  [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  (M)**98**. Validate BST, (M)**103**. Binary Tree Zigzag Level Order Traversal, (M)[**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), (M)**120**. Triangle, [(M)**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/),  [(M)**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),  [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/),   [(M)**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/),    (M)**200**. Number of Islands, (M)**279**. Perfect Squares, [(M)**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/), (M)**338**. Counting Bits,  [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),  [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),  [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) ,  (M)**622**. Design Circular Queue,   [(M)**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [(M)**863**. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) , [(M)**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
+\[ [(M)**2**. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/),   [(M)**3**. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/),     [(M)**6.** ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/), [(M)**8**. String to Integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/),   [(M)**11**. Container With Most Water](https://leetcode.com/problems/container-with-most-water/),  [(M)**24**. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) , [(M)**33**. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/),  [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/), [(M)**54**. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/submissions/),  (M)**98**. Validate BST, (M)**103**. Binary Tree Zigzag Level Order Traversal, (M)[**109**. Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/), (M)**120**. Triangle, [(M)**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/), [(M)**137**. Single Number II](https://leetcode.com/problems/single-number-ii/), [(M)**142**. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/),  [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/),   [(M)**179**. Largest Number](https://leetcode.com/problems/largest-number/submissions/),    (M)**200**. Number of Islands, (M)**279**. Perfect Squares, [(M)**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/), [(M)**322**. Coin Change](https://leetcode.com/problems/coin-change/), (M)**338**. Counting Bits,  [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/),  [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/),  [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) ,  (M)**622**. Design Circular Queue,   [(M)**785**. Is Graph a Bipartite](https://leetcode.com/problems/is-graph-bipartite/)  ,  [(M)**863**. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) , [(M)**907**. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/), ]
 
 ### Hard (6)
 
@@ -95,14 +95,14 @@ def strStr(self, haystack, needle):
             if i+j >= len(haystack): return -1 # haystack的剩餘長度已無法涵蓋needle的長度
             if haystack[i + j] != needle[j]: break # 一旦遇到不符就放棄, 從下個i開始
 ```
-#### 1-7. [(M)**151**. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/)
+#### 1-7. [(M)151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/submissions/)
 注意edge case: `s="   "`
 
-#### 1-8. [(M)**8**. String to Integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/)
+#### 1-8. [(M)8. String to Integer](https://leetcode.com/problems/string-to-integer-atoi/submissions/)
 
 直觀解: 先取號(正或負), 在此之前遇到空白都跳過, 遇到正負號或第一個數值字元就取號, 一旦取號後, 遇到非數值字元 (含空白)就跳出, 數值處理完, 就乘上正負號再檢查是否溢位, 另外在迴圈中檢查溢位和迴圈後檢查效率沒有太大差別, 可能因為是 by 字元處理, 或條件判斷的語句沒有精簡會更費工, 不過大部份解法都差不多效率
 
-#### 1-9. [(H)**65**. Valid Number](https://leetcode.com/problems/valid-number/submissions/)
+#### 1-9. [(H)65. Valid Number](https://leetcode.com/problems/valid-number/submissions/)
 
 這題很容易寫成太多if else, 所以得整理好規則, 再review一下, char by char進行
 
@@ -126,7 +126,7 @@ def strStr(self, haystack, needle):
 6. 有空白字元就前進, 做到結尾檢查是否符合指數或小數點的規則就是有效
 
 
-#### 1-10. [(M)**3**. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+#### 1-10. [(M)3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 準備一張table, 用來列出此字串中所有字元是否出現過, 用head和tail兩個pointer來access, 以head = 0, tail從0到1去檢查, 如果遇到重複字元, 就從head + 1 開始再走一遍, 這個方法的時間複雜度是O(n)
 
@@ -147,11 +147,11 @@ class Solution:
 
 或是用索引去逼近, 也有機會達99%的faster, 不過這兩種寫法, 都有可能遇到16%的faster, 這可能是這題反讚數特高的原因, 個人猜測是test case或題型設計未展現鑑別度吧?
 
-#### [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/)
+#### [(E)189. Rotate Array](https://leetcode.com/problems/rotate-array/)
 
 (寫超過一小時) 第1個規則是k與nums的長度, 如果k > len(num), 就有可能不用rotate, 所以加上 `k = k % len(nums)` , k 如果等於nums的長度就不用作任何事, 第2個是將nums拆成 `head = nums[-k:]` 和`tail = nums[:len(nums)-k]`, 將head與tail接在一起就是rotate後的結果, 另外題目要求modify in place, 所以一個個copy
 
-#### [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)
+#### [(E)459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)
 
 蠻有趣的, 從頭開始寫, 執行時間從 6000ms -> 500ms -> 100ms -> 62ms, 基本概念是, 讓題目要求可以成立的substring (注意整個字串不算substring), 其長度一定是整個字串的因數 , 所以可以用2開始切字串, 從最長的substring開始檢查, 一旦符合就結束, 虛擬碼為:
 ```
@@ -164,7 +164,7 @@ class Solution:
 			return True
 		len_sub -= 1
 ```
-####  [(M)**468**. Validate IP Address](https://leetcode.com/problems/validate-ip-address/)
+####  [(M)468. Validate IP Address](https://leetcode.com/problems/validate-ip-address/)
 
 1. 先區分是v4或v6,
 2. for v4, 檢查leading zero和non-digit
@@ -173,12 +173,12 @@ class Solution:
 5. for v6, 檢查0~65535
 
 
-####  [(M)**539**. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) 
+####  [(M)539. Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) 
 
 所有時間點換算成minutes都是不脫0~1439的值, 將各時點轉成序列成A序列, 排序後rotate (shift)成B序列, 其實就能快速形成一個所有時點的成對序列, 這比用`itertools.combinations(iterable, r)`快多了, 另外注意rotate後的B, 其最後一值要設成A[0] + 1440, 相當於過24H回頭一步做比較
 
 
-#### [(E)**680**. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/submissions/)
+#### [(E)680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/submissions/)
 
 和一般palindrome不同在於, 本題多一個要求是可以刪除一個字元下是否仍為palindrome, 
 這邊有多學一個python語法, `lst[::-1]`這樣就是reversed string, 所以基本的isPalindrome可以直接以 `if s[::-1] == s`來做檢查, 後續刪除字元的實作則是用head (i)和tail (j)來達成:
@@ -200,7 +200,7 @@ s[i] == s[j]就是頭尾相同, 表示可以忽略頭尾去判斷中間的字串
 
 #### **7**. Reverse Integer, 
 
-#### [**9**. Palindrome Number | Easy ](https://leetcode.com/problems/palindrome-number/submissions/)
+#### [9. Palindrome Number | Easy ](https://leetcode.com/problems/palindrome-number/submissions/)
 
 ```python
 while x != 0:
@@ -208,7 +208,7 @@ while x != 0:
 	x /= 10
 ```
 
-#### [(E)**263**. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/)
+#### [(E)263. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/)
 
 能被2,3,5整除的就是ugly number, 這題和coin change或perfect squares類似, 只是將加法換成除法, coin set換成2,3,5, 所以初次解用BFS解, 另外注意小於等於0就不是ugly number
 
@@ -218,7 +218,7 @@ while x != 0:
 
 Python 用set或用dict都可以, 注意題目要求的回傳形式, 然後也要注意edge case (空陣列), (note: 第一次做花了一小時)
 
-#### [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/)
+#### [(E)237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/)
 
 有趣, 只給你要刪除的node, 不給你node list, 此題test case和output都已有定義, 要求是modify in-place, 概念解如下
 
@@ -243,11 +243,11 @@ Python 用set或用dict都可以, 注意題目要求的回傳形式, 然後也�
 Note: python的用新的變數儲存已有的instance, 會重新分配一個instance
 例如 `track.next = node1`這會新建一個instance放在next中, 和node1放的是不一樣的instance, 另外`track.next = node1 or node2`有看到這種更簡短的寫法
 
-#### 3-21. [(E)**2**. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+#### 3-21. [(E)2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
 題號很前面, 在此時看算是簡單的題目, 這題和上題都有dummy head的概念應用
 
-#### 3-22. [(M)**24**. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 36ms, 10%
+#### 3-22. [(M)24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 36ms, 10%
 
 本題難在不能更改val, 而要更改ListNode的指向, 伴隨著space comlexity要求為O(n), 可以一次用x, y, z三個ListNode來達成swap, 概念碼如下:
 
@@ -273,7 +273,7 @@ return dummy.next
 
 
 
-#### [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)
+#### [(E)206. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)
 
 概念差不多, 可以modify in place, 注意在更改時, 不要更改到原list的內容
 ```
@@ -289,7 +289,7 @@ return new_head
 
 ### Ch 4. Binary Tree
 
-#### 4-26.  [(E)**104**. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 48ms, 24%
+#### 4-26.  [(E)104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 48ms, 24%
 
 類preorder, DFS, do it recursively , time: O(n), space: O(logn)
 
@@ -299,7 +299,7 @@ maxDepth(root):
 	return max(maxDepth(root.L), maxDepth(root.R)) + 1
 ```
 
-#### 4-27. [(E)**111**. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | 36ms, 88%
+#### 4-27. [(E)111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | 36ms, 88%
 
 same as 106, 差別是要判斷是否為leaf, 是的話就可以回傳, time: O(n), space: O(logn)
 
@@ -362,7 +362,7 @@ E
 
 
 
-#### [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+#### [(E)226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
 名題([max howell的教訓](https://www.zhihu.com/question/31202353)), 解這題時有對python的語言特性想久了一點, python的OO也有分物件層級的變數和樣例層級的變數, 針對此題的解法虛擬碼為:
 ```python
@@ -375,7 +375,7 @@ invert(root):
 ```
 對上例的初步理解是: 宣告tmp時, 會新分配一個instance來存放左邊分枝的內容, 之後就可以遞迴處理左和右, 相當於swap, 如果直接寫成`root.L, root.R = invert(root.R), invert(root.L)`也有相同作用
 
-#### [(M)**129**. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
+#### [(M)129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
 
 第一次想用DFS解, 解不完, BFS比較可行, 參考的解是遇到leaf就將value加到sum中 (因為可以確定leaf是個位數), 若遇到leaf以外的node, 就將當前的value乘上10, 分別加到子點, 再push 到queue以進行下一輪BFS, pseudo code:
 
@@ -424,7 +424,7 @@ class Solution:
 
 暴力解, 將linked list轉換成array, 取中間點當root,再把剩下的array切開轉成兩個linked list, recursively進行下去 
 
-#### 4-31. [(H)**124**. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+#### 4-31. [(H)124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
 題目: 給定BT, 找出Tree中所有可能path能構成的最大值,
 
@@ -463,13 +463,13 @@ def helper(self, root):
 
 
 
-#### [(M)**863**. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+#### [(M)863. All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
 
 題目: 給定一個BT, 一個node N和integer K, 回傳所有BT上距離N為K的node
 
 策略: 先用DFS建立neighbors map, 將所有邊記錄成list (雙向的, 所以一個邊都會碰到兩次), 之後以target為起點, 用BFS去走訪這個neighbors map, 走到距離K就將點放到basket裡, 超過K就不再進行下去, 回傳basket就是答案, 另外要注意corner case, 例如K = 0, 這種情況就回傳target即可
 
-#### [(E)**112**. Path Sum](https://leetcode.com/problems/path-sum/submissions/)
+#### [(E)112. Path Sum](https://leetcode.com/problems/path-sum/submissions/)
 
 題目: 給BT和sum, 回傳BT上是否存在一條root到leaf的path, 其和為sum
 
@@ -494,7 +494,7 @@ class Solution:
 
 Tips: 除以2, 餘數就會是LSB, 重複對商做, 直到無法除
 
-#### 5-33. [(E)**136**. Single Number](https://leetcode.com/problems/single-number/submissions/)
+#### 5-33. [(E)136. Single Number](https://leetcode.com/problems/single-number/submissions/)
 
 題目: 給定一組不為空的數列, 找出只出現一次的數 (其餘都會出現兩次)
 
@@ -506,9 +506,40 @@ XOR Solution (time: 99%, space: 7.6 %):
 
 利用XOR的特性 (自己跟自己XOR會是0, 並且commutatve和associative, 意即順序不影響最終結果) 
 
-#### 5-34. [(M)**137**. Single Number II](https://leetcode.com/problems/single-number-ii/)
+#### 5-34. [(M)137. Single Number II](https://leetcode.com/problems/single-number-ii/)
 
 題目: 找出數列中, 唯一沒有出現三次的數
+
+用map解一定會很快, 但沒有達到memory requirement
+
+電子書中的java解法:
+將每個數都轉成32 bit binary, 將ith bit都加起來, 對各bit mod 3再照位元位置組起來就是答案
+
+用python的話, 要注意負數 (2是...000**10**, -2則是...111**10**)
+所以用33個bit來放結果, 
+
+```
+def singleNumber(nums):
+	res = 0
+	cnt = [0] * 33
+	# consider sign
+	for n in nums:
+		if n < 0:
+			cnt[-1] += 1
+	
+	for i in range(32):
+		for n in nums:
+			if n < 0:
+				n = -n
+			cnt[i] += (n >> i) & 1
+		res |= (cnt % 3) << i
+	if cnt[-1] % 3 == 1
+		res = -res
+	return res
+```
+
+
+
 
 
 ### Ch 6. Misc
@@ -533,7 +564,7 @@ while True:
     if (--m == 0): break
 ```
 
-#### 6-37. [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/) 
+#### 6-37. [(E)13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/) 
   規則是I -> (V, X), X -> (L, C), C -> (D, M), 所以遇到IXC三種就特別檢查下一個是否為可對應的tuple, 否則就照value map加上去即可, 用while loop比較好控制
 
 ### Ch 7. Stack

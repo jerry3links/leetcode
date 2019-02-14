@@ -11,7 +11,6 @@
 
 class Solution(object):
 
-
     # time: 99%, space: 7.6%
     def singleNumber(self, nums):
         """
