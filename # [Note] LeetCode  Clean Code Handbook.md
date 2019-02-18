@@ -236,7 +236,7 @@ Python 用set或用dict都可以, 注意題目要求的回傳形式, 然後也�
 
 概念是不要去更動next, 只去更新node的value, 上解不將if結合成一個的理由是這樣設計的前提是input list一定要有兩個node, 若node只有一個, previous就不會有內容, 這個方法的時間複雜度是O(n)
 
-####  3-20. [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/)
+####  3-20. [(E)21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/)
 
 題目是混兩個排序的linked list
 
@@ -544,7 +544,7 @@ def singleNumber(nums):
 
 ### Ch 6. Misc
 
-#### 54. Spiral Matrix
+#### 6-35. (M) 54. Spiral Matrix
 
 用螺旋的方式印出矩陣元素直到中心, 提示: 走訪的方向是水平或垂直在切換, 每切換一次要走的步數都會減少, 又分前進後退, 所以會有4個if, 終止條件就是水平或垂直步數其一減至0
 

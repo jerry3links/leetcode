@@ -17,13 +17,27 @@ def stringToIntegerList(string):
 
 
 def main():
-    from BitManipulation.solM137SingleNumII import Solution
-    nums = [2,2,3,2]
-    nums = [0,1,0,1,0,1,99]
-    nums = [-2, -2, 1, 1, -3, 1, -3, -3, -4, -2]
-    print("nums: {}".format(nums))
-    ans = Solution().singleNumber(nums)
-    print("ans = {}".format(ans))
+    from DifficultyMedium.solM012Int2Roman import Solution
+
+    benches = {
+                3: "III"
+                , 4: "IV"
+                , 9: "IX"
+                , 10: "X"
+                , 58: "LVIII" ,
+                1994: "MCMXCIV"
+    }
+
+    cnt = 0
+    for val in benches:
+        try:
+            assert Solution().intToRoman(val) == benches[val]
+            cnt += 1
+        except AssertionError:
+            print("[{}] should be [{}], cnt: {}".format(val, benches[val], cnt))
+
+    if cnt == len(benches):
+        print("All pass!")
 
 if __name__ == '__main__':
     main()
