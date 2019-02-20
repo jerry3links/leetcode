@@ -17,27 +17,13 @@ def stringToIntegerList(string):
 
 
 def main():
-    from DifficultyMedium.solM012Int2Roman import Solution
-
-    benches = {
-                3: "III"
-                , 4: "IV"
-                , 9: "IX"
-                , 10: "X"
-                , 58: "LVIII" ,
-                1994: "MCMXCIV"
-    }
-
-    cnt = 0
-    for val in benches:
-        try:
-            assert Solution().intToRoman(val) == benches[val]
-            cnt += 1
-        except AssertionError:
-            print("[{}] should be [{}], cnt: {}".format(val, benches[val], cnt))
-
-    if cnt == len(benches):
-        print("All pass!")
+    from DifficultyMedium.solM133CloneGraph import Solution
+    node = Solution().testCase()
+    print("Original:")
+    Solution().printGraph(node)
+    ans = Solution().cloneGraph(node)
+    print("Cloned:")
+    Solution().printGraph(ans)
 
 if __name__ == '__main__':
     main()

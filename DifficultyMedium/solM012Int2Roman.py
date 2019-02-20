@@ -32,7 +32,6 @@
 # M             1000
 
 class Solution(object):
-
     ixc = {
         "I": ("V", "X"),
         "X": ("L", "C"),
@@ -42,36 +41,81 @@ class Solution(object):
 
     chs = "IXCM"
 
+
     def intToRoman(self, num):
         """
         :type num: int
         :rtype: str
         """
 
+        RULE = {
+            "I": ("V", "X"),
+            "X": ("L", "C"),
+            "C": ("D", "M"),
+            "M": None
+        }
+
+        BASE = "IXCM"
+
+        cnt = 0
+        res = ""
+
+        while num > 0 and cnt < len(BASE):
+            num, r = divmod(num, 10)
+
+            base = BASE[cnt]
+            pair = RULE[base]
+            if 0 < r <= 4:
+                tmp = base
+                if r == 4 and pair:
+                    tmp += pair[0]
+                else:
+                    for _ in range(1, r):
+                        tmp += base
+                res = tmp + res
+            elif 5 <= r < 9 and pair:
+                tmp = pair[0]
+                if 5 < r < 9:
+                    for _ in range(r % 5):
+                        tmp += base
+                res = tmp + res
+            elif r == 9 and pair:
+                res = base + pair[1] + res
+
+            cnt += 1
+
+        return res
+
+    # python
+    # Runtime: 72 ms, faster than 80.00%
+    # Memory Usage: 10.6 MB, less than 100.00%
+    def secondImpl(self, num):
         # print("PROCESSING [{}] ...".format(num))
         cnt = 0
         rst = ""
-        while num > 0 and cnt < 4:
+
+        while num > 0 and cnt < len(self.chs):
             num, r = divmod(num, 10)
             # print("cnt: {}, num: {}, r: {}".format(cnt, num, r))
 
             base = self.chs[cnt]
+            pair = self.ixc[base]
             if 0 < r <= 4:
                 tmp = base
-                if r == 4:
-                    tmp += self.ixc[base][0]
+                if r == 4 and pair:
+                    tmp += pair[0]
                 else:
                     for _ in range(1, r):
                         tmp += base
                 rst = tmp + rst
-            elif 5 <= r < 9:
-                tmp = self.ixc[base][0]
+            elif 5 <= r < 9 and pair:
+                tmp = pair[0]
                 if 5 < r < 9:
                     for _ in range(r % 5):
                         tmp += base
                 rst = tmp + rst
-            elif r == 9:
-                rst = base + self.ixc[base][1] + rst
+            elif r == 9 and pair:
+                rst = base + pair[1] + rst
 
             cnt += 1
 
