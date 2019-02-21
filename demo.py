@@ -17,13 +17,11 @@ def stringToIntegerList(string):
 
 
 def main():
-    from DifficultyMedium.solM133CloneGraph import Solution
-    node = Solution().testCase()
-    print("Original:")
-    Solution().printGraph(node)
-    ans = Solution().cloneGraph(node)
-    print("Cloned:")
-    Solution().printGraph(ans)
+    from DifficultyEasy.solE709ToLowercase import Solution
+    input = "Hello"
+    print("input: {}".format(input))
+    ans = Solution().toLowerCase(input)
+    print("output: {}".format(ans))
 
 if __name__ == '__main__':
     main()

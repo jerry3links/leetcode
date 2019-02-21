@@ -11,11 +11,11 @@ My [Git Repo.](https://github.com/jerry3links/leetcode) for leetcoding
 
 \[ ,  ,  ,  ,  ]
 
-## 目前已解 (70+1)
+## 目前已解 (71+1)
 
-### Easy (32+1)
+### Easy (33+1)
 
-\[ (E)**1**. Two Sum,     (E)**7**. Reverse Integer, (E)**9**. Palindrome Number,   [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  (E)**14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),   [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/),  (E)**27**. Remove Element,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),  [(E)**104**. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), (E)**108**. Convert Sorted Array to Binary Search Tree,  [(E)**110**. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) ,  [(E)**111**. Minimum Depth of inary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  ,    [(E)**112**. Path Sum](https://leetcode.com/problems/path-sum/submissions/),     [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  [(E)**136**. Single Number](https://leetcode.com/problems/single-number/submissions/),  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/),  [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),   [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)   [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),   [(E)**263**. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/) ,   [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),       [(E)**680**. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)   ,   (E)**700**. Search In a Binary Search Tree, [(E)**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [(E)**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)905. Sort Array by Parity  , [(E)**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目, 182是SQL題目
+\[ (E)**1**. Two Sum,     (E)**7**. Reverse Integer, (E)**9**. Palindrome Number,   [(E)**13**. Roman to Integer](https://leetcode.com/problems/roman-to-integer/submissions/)  ,  (E)**14**. Longest Common Prefix,  [(E)**20**. Valid Parenthesis](https://leetcode.com/problems/valid-parentheses/),   [(E)**21**. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/submissions/),  (E)**27**. Remove Element,  [(E)**28**. strStr](https://leetcode.com/problems/implement-strstr/),  [(E)**104**. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/), (E)**108**. Convert Sorted Array to Binary Search Tree,  [(E)**110**. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) ,  [(E)**111**. Minimum Depth of inary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  ,    [(E)**112**. Path Sum](https://leetcode.com/problems/path-sum/submissions/),     [(E)**125**. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)   ,  [(E)**136**. Single Number](https://leetcode.com/problems/single-number/submissions/),  (E)**155**. Min Stack , [(E)**167**. Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/),   (E)**170**. Two Sum - Data Structure ,  [(E)182. Duplicate Emails](https://leetcode.com/problems/duplicate-emails/),  [(E)**189**. Rotate Array](https://leetcode.com/problems/rotate-array/),   [(E)**206**. Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)   [(E)**226**. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/),    [(E)**237**. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/),   [(E)**263**. Ugly Number](https://leetcode.com/problems/ugly-number/submissions/) ,   [(E)**459**. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/),       [(E)**680**. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)   ,   (E)**700**. Search In a Binary Search Tree,  [(E)**709**. To Lower Case](https://leetcode.com/problems/to-lower-case/submissions/)  , [(E)**771**. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/submissions/), [(E)**840**. Magic Squares in Grid](https://leetcode.com/problems/magic-squares-in-grid/submissions/) ,   [(E)**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/) ,   (E)**905**. Sort Array by Parity  , [(E)**929**. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/submissions/),   ] 170是付費題目, 182是SQL題目
 
 ### Medium (32)
 
@@ -765,7 +765,7 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
 
 #### 其它各題解法雜記
 
-#####  [(H)**128**. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/submissions/)
+#####  [(H)128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/submissions/)
 
 初次解的策略:
 1. 先sort
@@ -775,7 +775,7 @@ O(n): big o表示法, 用來為演算法做分類, 用來形容: 隨著input的�
 5. 如果i + basket的大小超過nums的範圍, 或走到最後一個字元就可以結束
 
 
-##### [322\. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/submissions/)
+##### [322. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/submissions/)
 可以用list, pop作為dequeue, 或用索引0和-1來dequeue, 第一版的解法感覺沒有circular(或ring)的概念在內, 下面是有head和tail的索引寫法, tail用shift之後就有ring的感覺
 
 <details><summary>Solution</summary><p>
@@ -1217,7 +1217,7 @@ class Solution:
 
 </p></details>
 
-##### [**300**. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+##### [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 
 下面是n平方的遞迴解法, 仍然會遇到TLE, 注意python 迴圈中能不要用append就不用
 
@@ -1269,10 +1269,10 @@ class Solution:
 
 </p></details>
 
-##### [**896**. Monotonic Array](https://leetcode.com/problems/monotonic-array/)
+##### [896. Monotonic Array](https://leetcode.com/problems/monotonic-array/)
 這題麻煩的是非嚴格遞增, 要處理開頭的相同元素
 
-##### [**907**. Sum of Subarray Minimum](https://leetcode.com/problems/sum-of-subarray-minimums/)
+##### [907. Sum of Subarray Minimum](https://leetcode.com/problems/sum-of-subarray-minimums/)
 
 - 用兩個for loop列出所有sub array, 然後加總每一個陣列的最小值, 可解但會在leetcode上TLE
 - 利用monotonic stack (單調遞增或遞減的stack), 可在O(n)時間內找到PLE和NLE (next less element),  找到每個元素與PLE和NLE的距離, 就可以推算出以此元素為最小值的所有陣列, 每個元素都找過就是所有陣列, 相乘後加總就是答案, 最後要注意要取mod = 1e9 * 7, 然後轉成整數 ([參考教學](https://leetcode.com/problems/sum-of-subarray-minimums/discuss/178876/stack-solution-with-very-detailed-explanation-step-by-step))
@@ -1286,7 +1286,7 @@ class Solution:
 - DP解([參考教學](https://www.youtube.com/watch?v=za2bgJLHmxI&t=1277s))
   根據目標量列出一張DP表 (0~amount), 0就設為0 (沒有硬幣找), 初值可用2\*\*32 (表INVALID) 或無限大 float("inf"), 最後跑完如果沒變, 表示現有硬幣集合中無法組合出該量. 這個方式可以不用先對硬幣集合排序, 每種硬幣從1開始填表, 填到這個幣值再挑下一個硬幣, 每個硬幣都做完就結束了, 式子是`dp[i] = min(dp[i], dp[i - coin] + 1)`, 舉例來說: 有{1,2,5}三種硬幣目標是3元, 挑1元硬幣填時, `dp[1] = min(dp[1], dp[1-1元] + 1)`, `dp[2] = min(dp[2], dp[2-1元] + 1)`, ..., 就是用1元硬幣找的所有解, 當挑到2元硬幣時, 就會再填一次`dp[2] = min(dp[2], dp[2-2元] + 1)`, 全部跑完這格就是解
 
-##### [(M)**518**. Coin Change II](https://leetcode.com/problems/coin-change-2/submissions/)
+##### [(M)518. Coin Change II](https://leetcode.com/problems/coin-change-2/submissions/)
 
 **這題是求所有組合法**, 類似39. Combination Sum, 和279及322 不太一樣. 最常見是DP解([參考教學](https://leetcode.com/problems/coin-change-2/discuss/200847/Python-easy-to-understand-dp-solution)), 方法是先將coin由小到大排序, coins\[0]就是第一種錢幣, coins\[1]就是前兩種錢幣 ... , f(i,j)就是coin set i可以換成錢j的方法數, 可被化約成兩種可能:
 
@@ -1298,7 +1298,7 @@ class Solution:
 
   f($2, $3 to $4), 最大幣值可以從目標量扣除, 變成答案的一部分, 所以相當於 f($2, $3 to $2) + f($2 to $4), 前者是就是同一排左邊的答案, 後者就是上排 (較小的那些幣值) 對同樣目標量的答案
 
-##### [(M)**39**. Combination Sum](https://leetcode.com/problems/combination-sum/)
+##### [(M)39. Combination Sum](https://leetcode.com/problems/combination-sum/)
 
 類似518 (將candidates想成coins), 建一張table, column 用amount為索引, row用values set為索引 , 範例如下:
 
@@ -1334,6 +1334,14 @@ def solve(row, board, ans):
 
 這其實是SQL question, 利用GROUP BY和HAVING及COUNT來達成, 另外題目有指定只列email, 所以要選email不要用*
 `SELECT Email FROM Person GROUP BY Email HAVING COUNT(Email)>1;`	
+
+##### [(E)709. To Lower Case](https://leetcode.com/problems/to-lower-case/submissions/)
+
+題目: 將大寫字母轉小寫
+
+要注意會有非英數字元, 遇到就直接複製, 解法是ascii number, python在ascii相關的method是`ord()`和`chr()`, 前者將字元轉ascii碼, 後者是將ascii碼轉字元, 然後A~Z的ascii碼是65~90, 小寫則是97~122, 也就是大小寫相差32, 所以char by char串接成新字即可
+
+
 
 
 ### Reference
