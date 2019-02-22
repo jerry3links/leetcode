@@ -36,4 +36,5 @@ class MinStack:
 
     def getMin(self):
         if self.stack:
+
             return self.stack[-2]

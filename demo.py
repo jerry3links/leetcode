@@ -17,11 +17,14 @@ def stringToIntegerList(string):
 
 
 def main():
-    from DifficultyEasy.solE709ToLowercase import Solution
-    input = "Hello"
-    print("input: {}".format(input))
-    ans = Solution().toLowerCase(input)
-    print("output: {}".format(ans))
+    from Stack.solM150EvalRPN import Solution
+    tokens = ["2", "1", "+", "3", "*"]
+    tokens = ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]  # 22
+    tokens = ["4", "13", "5", "/", "+"] # 6
+    print(tokens)
+    ans = Solution().evalRPN(tokens)
+
+    print("ans = {}".format(ans))
 
 if __name__ == '__main__':
     main()

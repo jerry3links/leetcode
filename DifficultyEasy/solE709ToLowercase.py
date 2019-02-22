@@ -19,7 +19,7 @@ class Solution(object):
         if len(input) < 1:
             return None
 
-        s = bytearray(input)
+        s = bytearray(input, encoding='ascii')
 
         for i in range(len(input)):
 
