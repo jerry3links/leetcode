@@ -17,13 +17,10 @@ def stringToIntegerList(string):
 
 
 def main():
-    from Stack.solM150EvalRPN import Solution
-    tokens = ["2", "1", "+", "3", "*"]
-    tokens = ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]  # 22
-    tokens = ["4", "13", "5", "/", "+"] # 6
-    print(tokens)
-    ans = Solution().evalRPN(tokens)
-
+    from DP.solM062UniPaths import Solution
+    m, n = 3, 2
+    print("m = {}, n = {}".format(m,n))
+    ans = Solution().uniquePaths(m, n)
     print("ans = {}".format(ans))
 
 if __name__ == '__main__':

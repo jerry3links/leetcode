@@ -36,7 +36,7 @@ class Solution(object):
                 elif t == '/':
                     X = a / b
                     print("a / b = {}".format(X))
-                    Y = (round(a / b, 1)) # round to 1 digit after the decimal point
+                    Y = (round(X, 1)) # round to 1 digit after the decimal point
                     print("round: {}".format(Y))
                     c = str(int(Y))
                 oprd_stk.append(c)
