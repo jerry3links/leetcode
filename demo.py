@@ -17,10 +17,18 @@ def stringToIntegerList(string):
 
 
 def main():
-    from DP.solM062UniPaths import Solution
-    m, n = 3, 2
-    print("m = {}, n = {}".format(m,n))
-    ans = Solution().uniquePaths(m, n)
+    from DP.solM063UniPathsII import Solution
+    input = [
+        [0,0,0],
+        [0,1,0],
+        [0,0,0]
+    ]
+    # input = [
+    #     [1],
+    #     [0]
+    # ]
+    print("input:\n{}".format(input))
+    ans = Solution().uniquePathsWithObstacles(input)
     print("ans = {}".format(ans))
 
 if __name__ == '__main__':
