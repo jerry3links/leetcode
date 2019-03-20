@@ -17,19 +17,12 @@ def stringToIntegerList(string):
 
 
 def main():
-    from DP.solM063UniPathsII import Solution
-    input = [
-        [0,0,0],
-        [0,1,0],
-        [0,0,0]
-    ]
-    # input = [
-    #     [1],
-    #     [0]
-    # ]
-    print("input:\n{}".format(input))
-    ans = Solution().uniquePathsWithObstacles(input)
+    from BinarySearch.solH154FindMinII import Solution
+    input = [2,2,2,0,1]
+    print("input: {}".format(input))
+    ans = Solution().findMin(input)
     print("ans = {}".format(ans))
+
 
 if __name__ == '__main__':
     main()
